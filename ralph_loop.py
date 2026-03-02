@@ -506,13 +506,15 @@ def run_claude(prompt: str, timeout: int = 300, cwd: Path = VAULT_PATH) -> tuple
 
         env = {k: v for k, v in os.environ.items() if k != "CLAUDECODE"}
 
+        import sys as _sys
+        _claude_cmd = "claude.cmd" if _sys.platform == "win32" else "claude"
         result = subprocess.run(
-            ["claude", "--print", "-p", prompt],
+            [_claude_cmd, "--print", "-p", prompt],
             capture_output=True,
             text=True,
             timeout=timeout,
             cwd=str(cwd),
-            shell=True,
+            shell=(_sys.platform == "win32"),
             env=env,
         )
         return result.returncode, result.stdout.strip()

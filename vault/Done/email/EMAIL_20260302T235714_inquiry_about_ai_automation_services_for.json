@@ -1,0 +1,13 @@
+{
+  "type": "email_task",
+  "domain": "email",
+  "priority": "high",
+  "status": "pending",
+  "from_name": "Wonj30236",
+  "from_email": "wonj30236@gmail.com",
+  "subject": "Inquiry about AI automation services for our logistics team",
+  "body": "Hi,\n\nI came across your profile and I'm very interested in understanding how AI\nautomation could help our 12-person logistics team reduce manual data entry.\n\nSpecifically, we spend about 3 hours/day copying data from supplier emails\ninto our ERP system. Could you arrange a 30-minute call this week to discuss\nwhether your system could address this use case?\n\nOur availability: Tuesday 2\u20134 PM or Thursday any time after 11 AM (PKT).\n\nLooking forward to hearing from you.\n\nBest regards,\nSarah Chen\nOperations Manager, FastMove Logistics",
+  "received_at": "2026-03-02T23:57:12.522672+05:00",
+  "created_by": "gmail_watcher",
+  "demo": true
+}

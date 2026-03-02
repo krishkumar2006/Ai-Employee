@@ -374,10 +374,13 @@ def phase3_cloud_draft(args, card_path: Path, email_data: dict) -> str:
             )
             try:
                 timeout = int(_get_env("CLAUDE_TIMEOUT", "120"))
+                import sys as _sys
+                _claude_cmd = "claude.cmd" if _sys.platform == "win32" else "claude"
                 result  = subprocess.run(
-                    ["claude", "--print", "--prompt", prompt],
+                    [_claude_cmd, "--print", "--prompt", prompt],
                     capture_output=True, text=True,
                     timeout=timeout, cwd=str(PROJECT_ROOT),
+                    shell=(_sys.platform == "win32"),
                 )
                 if result.returncode == 0 and result.stdout.strip():
                     draft = result.stdout.strip()
