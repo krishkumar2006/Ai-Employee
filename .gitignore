@@ -1,6 +1,7 @@
 # =============================================================================
 # SECRETS — never committed, never synced
 # =============================================================================
+.claude/settings.local.json
 .env
 .env.local
 # .env.cloud is safe to commit (contains no secrets — passwords intentionally omitted)
