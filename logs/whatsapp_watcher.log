@@ -1,0 +1,440 @@
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:43:47,954 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 00:43:47,954 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:48:41,993 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 00:48:41,993 [INFO] If this is your first run, scan the QR code with your phone.
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 334, in main
+    page.goto(WA_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "load"
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:13:42,372 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 11:13:42,373 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:18:21,130 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 11:18:21,130 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:23:26,290 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 11:23:26,290 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:28:18,908 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 11:28:18,908 [INFO] If this is your first run, scan the QR code with your phone.
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 334, in main
+    page.goto(WA_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "load"
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:36:08,969 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 11:36:08,969 [INFO] If this is your first run, scan the QR code with your phone.
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 334, in main
+    page.goto(WA_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://web.whatsapp.com/
+Call log:
+  - navigating to "https://web.whatsapp.com/", waiting until "load"
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:31:17,161 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 14:31:17,161 [INFO] If this is your first run, scan the QR code with your phone.
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:36:35,089 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 14:36:35,090 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: Page.wait_for_selector: Target page, context or browser has been closed
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:41:08,307 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 14:41:08,307 [INFO] If this is your first run, scan the QR code with your phone.
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 387, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 337, in main
+    wait_for_login(page)
+  File "D:\Heck ---0\AI Empolyee\watchers\whatsapp_watcher.py", line 96, in wait_for_login
+    page.wait_for_selector(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 8217, in wait_for_selector
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 419, in wait_for_selector
+    return await self._main_frame.wait_for_selector(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 369, in wait_for_selector
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TimeoutError: Page.wait_for_selector: Timeout 120000ms exceeded.
+Call log:
+  - waiting for locator("div[aria-label=\"Chat list\"], #pane-side") to be visible
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+
+=======================================================
+  AI Employee — WhatsApp Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 30s
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.whatsapp_session
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:51:08,312 [INFO] Waiting for WhatsApp Web login...
+2026-02-25 14:51:08,312 [INFO] If this is your first run, scan the QR code with your phone.

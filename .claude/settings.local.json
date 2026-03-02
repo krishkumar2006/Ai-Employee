@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python watchers/linkedin_poster.py:*)",
+      "WebSearch",
+      "Bash(python -c:*)",
+      "Bash(python:*)",
+      "Bash(npm install:*)",
+      "Bash(find:*)",
+      "Bash(cmd /c \"dir \"\"D:\\\\Heck ---0\\\\AI Empolyee\"\" /b\")",
+      "Bash(cmd /c \"dir /b /s \"\"D:\\\\Heck ---0\\\\AI Empolyee\"\"\")",
+      "Bash(pip show:*)",
+      "Bash(pip install:*)",
+      "Bash(curl:*)",
+      "Bash(cd D:\\\\Heck ---0\\\\AI Empolyee:*)",
+      "Bash(claude:*)",
+      "Bash(printf:*)",
+      "Bash(start WhatsApp Login:*)",
+      "Bash(start LinkedIn Login:*)"
+    ]
+  }
+}

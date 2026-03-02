@@ -1,0 +1,378 @@
+2026-02-20 01:03:27,556 [ERROR] X_API_KEY / X_ACCESS_TOKEN not set â€” cannot start. Check .env
+2026-02-20 23:57:49,259 [ERROR] X_API_KEY / X_ACCESS_TOKEN not set â€” cannot start. Check .env
+2026-02-20 23:57:58,860 [ERROR] X_API_KEY / X_ACCESS_TOKEN not set â€” cannot start. Check .env
+2026-02-21 00:15:51,228 [INFO] Logging in as @@JohnWon238014 ...
+2026-02-21 00:15:52,701 [INFO] HTTP Request: GET https://x.com "HTTP/1.1 200 OK"
+2026-02-21 00:15:53,848 [INFO] HTTP Request: GET https://abs.twimg.com/responsive-web/client-web/ondemand.s.03fdfdea.js "HTTP/1.1 200 OK"
+2026-02-21 00:15:54,304 [INFO] HTTP Request: POST https://api.x.com/1.1/guest/activate.json "HTTP/1.1 200 OK"
+2026-02-21 00:15:54,487 [INFO] HTTP Request: POST https://api.x.com/1.1/onboarding/task.json?flow_name=login "HTTP/1.1 403 Forbidden"
+2026-02-21 00:17:43,699 [INFO] Logging in as @@JohnWon238014 ...
+2026-02-21 00:17:44,751 [INFO] HTTP Request: GET https://x.com "HTTP/1.1 200 OK"
+2026-02-21 00:17:46,524 [INFO] HTTP Request: GET https://abs.twimg.com/responsive-web/client-web/ondemand.s.03fdfdea.js "HTTP/1.1 200 OK"
+2026-02-21 00:17:46,955 [INFO] HTTP Request: POST https://api.x.com/1.1/guest/activate.json "HTTP/1.1 200 OK"
+2026-02-21 00:17:46,986 [INFO] HTTP Request: POST https://api.x.com/1.1/onboarding/task.json?flow_name=login "HTTP/1.1 403 Forbidden"
+2026-02-21 00:25:55,611 [INFO] Waiting for Twitter/X login...
+2026-02-21 00:25:55,611 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-21 00:29:45,450 [INFO] Waiting for Twitter/X login...
+2026-02-21 00:29:45,451 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-21 00:29:45,451 [INFO] You have 10 minutes to log in.
+2026-02-21 00:32:46,932 [INFO] Twitter/X logged in successfully!
+2026-02-21 00:32:46,932 [INFO] Twitter poster started. Polling every 60s...
+2026-02-21 00:34:56,981 [INFO] Waiting for Twitter/X login...
+2026-02-21 00:34:56,982 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-21 00:34:56,982 [INFO] You have 10 minutes to log in.
+2026-02-21 00:35:02,327 [INFO] Twitter/X logged in successfully!
+2026-02-21 00:35:02,328 [INFO] Twitter poster started. Polling every 60s...
+2026-02-25 00:00:35,345 [INFO] Waiting for Twitter/X login...
+2026-02-25 00:00:35,346 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 00:00:35,346 [INFO] You have 10 minutes to log in.
+2026-02-25 00:00:47,045 [INFO] Twitter/X logged in successfully!
+2026-02-25 00:00:47,045 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:37:45,670 [INFO] Waiting for Twitter/X login...
+2026-02-25 00:37:45,670 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 00:37:45,670 [INFO] You have 10 minutes to log in.
+2026-02-25 00:37:51,944 [INFO] Twitter/X logged in successfully!
+2026-02-25 00:37:51,945 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 00:37:51,945 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:43:35,843 [INFO] Waiting for Twitter/X login...
+2026-02-25 00:43:35,843 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 00:43:35,843 [INFO] You have 10 minutes to log in.
+2026-02-25 00:43:47,800 [INFO] Twitter/X logged in successfully!
+2026-02-25 00:43:47,800 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 00:43:47,800 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:48:38,655 [INFO] Waiting for Twitter/X login...
+2026-02-25 00:48:38,655 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 00:48:38,656 [INFO] You have 10 minutes to log in.
+2026-02-25 00:48:48,109 [INFO] Twitter/X logged in successfully!
+2026-02-25 00:48:48,110 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 00:48:48,110 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+    context: BrowserContext = pw.chromium.launch_persistent_context(
+                              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+<launched> pid=7368
+[pid=7368][out] Opening in existing browser session.
+Call log:
+  - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+  - <launched> pid=7368
+  - [pid=7368][out] Opening in existing browser session.
+  - [pid=7368] <gracefully close start>
+  - [pid=7368] <kill>
+  - [pid=7368] <will force kill>
+  - [pid=7368] taskkill stderr: ERROR: The process "7368" not found.
+  - [pid=7368] <process did exit: exitCode=0, signal=null>
+  - [pid=7368] starting temporary directories cleanup
+  - [pid=7368] finished temporary directories cleanup
+  - [pid=7368] <gracefully close end>
+
+2026-02-25 11:08:29,836 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:08:29,836 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:08:29,836 [INFO] You have 10 minutes to log in.
+2026-02-25 11:08:36,086 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:08:36,086 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:13:38,419 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:13:38,419 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:13:38,419 [INFO] You have 10 minutes to log in.
+2026-02-25 11:13:44,822 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:13:44,822 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 11:13:44,822 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:18:24,214 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:18:24,215 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:18:24,215 [INFO] You have 10 minutes to log in.
+2026-02-25 11:18:32,747 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:18:32,747 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 11:18:32,747 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:23:30,019 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:23:30,019 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:23:30,020 [INFO] You have 10 minutes to log in.
+2026-02-25 11:23:36,206 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:23:36,207 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 11:23:36,207 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:33:22,995 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:33:22,995 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:33:22,996 [INFO] You have 10 minutes to log in.
+2026-02-25 11:33:33,405 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:33:33,405 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 11:33:33,405 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:36:08,201 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:36:08,202 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:36:08,203 [INFO] You have 10 minutes to log in.
+2026-02-25 11:36:19,198 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:36:19,199 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 11:36:19,199 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:21:12,766 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:21:12,766 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:21:12,766 [INFO] You have 10 minutes to log in.
+2026-02-25 14:21:19,982 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:21:19,982 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 14:21:19,982 [INFO] Twitter poster started. Polling every 60s...
+2026-02-25 14:25:25,807 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:25:25,807 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:25:25,807 [INFO] You have 10 minutes to log in.
+2026-02-25 14:25:36,163 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:25:36,163 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:31:09,817 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:31:09,817 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:31:09,818 [INFO] You have 10 minutes to log in.
+2026-02-25 14:31:20,085 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:31:20,085 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 14:31:20,085 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:36:20,383 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:36:20,384 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:36:20,384 [INFO] You have 10 minutes to log in.
+2026-02-25 14:36:42,263 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:36:42,263 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 14:36:42,263 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:41:08,161 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:41:08,161 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:41:08,161 [INFO] You have 10 minutes to log in.
+2026-02-25 14:41:13,679 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:41:13,679 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 14:41:13,679 [INFO] Twitter poster started. Polling every 60s...
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Twitter/X Poster (Playwright)
+============================================================
+  Drafts  : D:\Heck ---0\AI Empolyee\vault\Twitter_Drafts
+  Posted  : D:\Heck ---0\AI Empolyee\vault\Twitter_Posted
+  Session : D:\Heck ---0\AI Empolyee\vault\.twitter_session
+  Poll    : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:51:09,026 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:51:09,027 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:51:09,027 [INFO] You have 10 minutes to log in.
+2026-02-25 14:51:17,867 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:51:17,868 [INFO] Twitter poster started. Polling every 60s...
+ed in successfully!
+2026-02-25 14:51:17,868 [INFO] Twitter poster started. Polling every 60s...

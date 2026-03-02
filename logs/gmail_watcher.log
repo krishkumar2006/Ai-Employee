@@ -1,0 +1,666 @@
+2026-02-17 01:27:38,846 [INFO] Refreshing expired Gmail token...
+2026-02-17 01:27:40,241 [INFO] Gmail token saved to D:\Heck ---0\AI Empolyee\watchers\gmail_token.json
+2026-02-17 01:27:40,252 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:27:40,293 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:27:40,314 [INFO] Loaded 10 previously processed email IDs.
+2026-02-17 01:27:40,330 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:27:41,921 [INFO] Found 10 unread email(s).
+2026-02-17 01:27:42,329 [INFO] Processing: [\U0001f31f Check your stats & grab 50% off Pro!] from Grammarly Insights <hello@mail.grammarly.com>
+2026-02-17 01:27:42,333 [INFO] Task card created: EMAIL_\U0001f31f Check your stats & grab 50% off Pro!_2026-02-17T01-27-42+05.md [priority=normal]
+2026-02-17 01:27:42,334 [INFO] Triggering Claude to generate plan for: EMAIL_\U0001f31f Check your stats & grab 50% off Pro!_2026-02-17T01-27-42+05.md
+2026-02-17 01:27:42,373 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-17 01:27:43,150 [INFO] Processing: [Free Access Week: All 620+ courses are now free!] from The DataCamp Team <team@datacamp.com>
+2026-02-17 01:27:43,150 [INFO] Task card created: EMAIL_Free Access Week- All 620+ courses are now free!_2026-02-17T01-27-43+05.md [priority=normal]
+2026-02-17 01:27:43,152 [INFO] Triggering Claude to generate plan for: EMAIL_Free Access Week- All 620+ courses are now free!_2026-02-17T01-27-43+05.md
+2026-02-17 01:27:43,193 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-17 01:28:43,491 [INFO] Found 10 unread email(s).
+2026-02-17 01:29:43,784 [INFO] Found 10 unread email(s).
+===========================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-17 01:28:33,994 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:28:33,994 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:28:34,025 [INFO] Loaded 12 previously processed email IDs.
+2026-02-17 01:28:34,025 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:28:35,235 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-17 01:33:34,101 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:33:34,103 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:33:34,104 [INFO] Loaded 12 previously processed email IDs.
+2026-02-17 01:33:34,104 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:33:36,717 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-17 01:38:34,272 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:38:34,274 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:38:34,274 [INFO] Loaded 12 previously processed email IDs.
+2026-02-17 01:38:34,275 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:38:35,300 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-17 01:43:34,474 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:43:34,476 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:43:34,476 [INFO] Loaded 12 previously processed email IDs.
+2026-02-17 01:43:34,477 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:43:35,740 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-17 01:48:34,622 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-17 01:48:34,622 [INFO] Gmail API authenticated successfully.
+2026-02-17 01:48:34,622 [INFO] Loaded 12 previously processed email IDs.
+2026-02-17 01:48:34,624 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-17 01:48:36,171 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-24 23:59:52,690 [INFO] Refreshing expired Gmail token...
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+    service = authenticate_gmail()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+    creds.refresh(Request())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+    _client._handle_error_response(response_data, retryable_error)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+    raise exceptions.RefreshError(
+google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:04:52,620 [INFO] Starting OAuth flow — a browser window will open...
+Please visit this URL to authorize this application: https://accounts.google.com/o/oauth2/auth?response_type=code&client_id=859537523315-h1oluvffd02tort5rrm0m9q8kdoqmfn9.apps.googleusercontent.com&redirect_uri=http%3A%2F%2Flocalhost%3A57801%2F&scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fgmail.readonly&state=hdo60wLdQFG33CeBVOJAIx06TSiQYv&access_type=offline
+2026-02-25 00:05:09,405 [INFO] "GET /?state=hdo60wLdQFG33CeBVOJAIx06TSiQYv&iss=https://accounts.google.com&code=4/0AfrIepCwmtbHY8GxaAEGxzc4GTyArZGW_yWM2zoMPGJArpQ53R5YP9iiLG524PI-Gztddw&scope=https://www.googleapis.com/auth/gmail.readonly HTTP/1.1" 200 65
+2026-02-25 00:05:12,507 [INFO] Gmail token saved to D:\Heck ---0\AI Empolyee\watchers\gmail_token.json
+2026-02-25 00:05:12,534 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:05:12,617 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:05:12,629 [INFO] Loaded 12 previously processed email IDs.
+2026-02-25 00:05:12,630 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:05:14,770 [INFO] Found 10 unread email(s).
+2026-02-25 00:05:15,065 [INFO] Processing: [wonj30236, catch up on moments you've missed] from Instagram <notification@priority.instagram.com>
+2026-02-25 00:05:15,070 [INFO] Task card created: EMAIL_wonj30236, catch up on moments you've missed_2026-02-25T00-05-15+05.md [priority=normal]
+2026-02-25 00:05:15,079 [INFO] Triggering Claude to generate plan for: EMAIL_wonj30236, catch up on moments you've missed_2026-02-25T00-05-15+05.md
+2026-02-25 00:05:15,196 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:15,567 [INFO] Processing: [1 update for you: about Dastagir] from Facebook <notification@priority.facebookmail.com>
+2026-02-25 00:05:15,568 [INFO] Task card created: EMAIL_1 update for you- about Dastagir_2026-02-25T00-05-15+05.md [priority=normal]
+2026-02-25 00:05:15,596 [INFO] Triggering Claude to generate plan for: EMAIL_1 update for you- about Dastagir_2026-02-25T00-05-15+05.md
+2026-02-25 00:05:15,686 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:16,172 [INFO] Processing: [View Sundar Pichai’s post and your next steps] from LinkedIn <messages-noreply@linkedin.com>
+2026-02-25 00:05:16,175 [INFO] Task card created: EMAIL_View Sundar Pichai’s post and your next steps_2026-02-25T00-05-16+05.md [priority=normal]
+2026-02-25 00:05:16,182 [INFO] Triggering Claude to generate plan for: EMAIL_View Sundar Pichai’s post and your next steps_2026-02-25T00-05-16+05.md
+2026-02-25 00:05:16,286 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:16,609 [INFO] Processing: [Ai_employee: Your Odoo Periodic Digest] from Ai_employee <notifications@ai-employee6.odoo.com>
+2026-02-25 00:05:16,609 [INFO] Task card created: EMAIL_Ai_employee- Your Odoo Periodic Digest_2026-02-25T00-05-16+05.md [priority=normal]
+2026-02-25 00:05:16,641 [INFO] Triggering Claude to generate plan for: EMAIL_Ai_employee- Your Odoo Periodic Digest_2026-02-25T00-05-16+05.md
+2026-02-25 00:05:16,720 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:17,105 [INFO] Processing: [\U0001f4ac John, add Moiz Shaikh] from LinkedIn <messages-noreply@linkedin.com>
+2026-02-25 00:05:17,107 [INFO] Task card created: EMAIL_\U0001f4ac John, add Moiz Shaikh_2026-02-25T00-05-17+05.md [priority=normal]
+2026-02-25 00:05:17,113 [INFO] Triggering Claude to generate plan for: EMAIL_\U0001f4ac John, add Moiz Shaikh_2026-02-25T00-05-17+05.md
+2026-02-25 00:05:17,225 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:17,615 [INFO] Processing: [A week without words?] from Grammarly Insights <hello@mail.grammarly.com>
+2026-02-25 00:05:17,617 [INFO] Task card created: EMAIL_A week without words_2026-02-25T00-05-17+05.md [priority=normal]
+2026-02-25 00:05:17,620 [INFO] Triggering Claude to generate plan for: EMAIL_A week without words_2026-02-25T00-05-17+05.md
+2026-02-25 00:05:17,686 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:18,012 [INFO] Processing: [You’re first in line: 50% off data and AI skills] from The DataCamp Team <team@datacamp.com>
+2026-02-25 00:05:18,015 [INFO] Task card created: EMAIL_You’re first in line- 50% off data and AI skills_2026-02-25T00-05-18+05.md [priority=normal]
+2026-02-25 00:05:18,021 [INFO] Triggering Claude to generate plan for: EMAIL_You’re first in line- 50% off data and AI skills_2026-02-25T00-05-18+05.md
+2026-02-25 00:05:18,095 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:18,434 [INFO] Processing: [You have 1 new message] from LinkedIn <notifications-noreply@linkedin.com>
+2026-02-25 00:05:18,435 [INFO] Task card created: EMAIL_You have 1 new message_2026-02-25T00-05-18+05.md [priority=normal]
+2026-02-25 00:05:18,435 [INFO] Triggering Claude to generate plan for: EMAIL_You have 1 new message_2026-02-25T00-05-18+05.md
+2026-02-25 00:05:18,508 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:19,090 [INFO] Processing: [Ai_employee: Your Odoo Periodic Digest] from Ai_employee <notifications@ai-employee6.odoo.com>
+2026-02-25 00:05:19,093 [INFO] Task card created: EMAIL_Ai_employee- Your Odoo Periodic Digest_2026-02-25T00-05-19+05.md [priority=normal]
+2026-02-25 00:05:19,124 [INFO] Triggering Claude to generate plan for: EMAIL_Ai_employee- Your Odoo Periodic Digest_2026-02-25T00-05-19+05.md
+2026-02-25 00:05:19,233 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:05:19,661 [INFO] Processing: [Your interest in Odoo - Happy exploring!] from "Sonia Nasir (sonas)" <sonas@odoo.com>
+2026-02-25 00:05:19,665 [INFO] Task card created: EMAIL_Your interest in Odoo - Happy exploring!_2026-02-25T00-05-19+05.md [priority=normal]
+2026-02-25 00:05:19,672 [INFO] Triggering Claude to generate plan for: EMAIL_Your interest in Odoo - Happy exploring!_2026-02-25T00-05-19+05.md
+2026-02-25 00:05:19,749 [WARNING] Claude CLI not found — task card saved, no plan generated.
+2026-02-25 00:06:20,050 [INFO] Found 10 unread email(s).
+2026-02-25 00:07:20,414 [INFO] Found 10 unread email(s).
+2026-02-25 00:08:21,077 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:09:52,443 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:09:52,446 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:09:52,447 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:09:52,447 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:09:53,396 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:14:52,914 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:14:52,916 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:14:52,916 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:14:52,917 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:14:54,163 [INFO] Found 10 unread email(s).
+2026-02-25 00:15:54,530 [INFO] Found 10 unread email(s).
+2026-02-25 00:16:54,878 [INFO] Found 10 unread email(s).
+2026-02-25 00:17:55,264 [INFO] Found 10 unread email(s).
+2026-02-25 00:18:55,644 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:19:53,008 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:19:53,008 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:19:53,008 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:19:53,008 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:19:54,186 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:24:53,130 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:24:53,130 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:24:53,130 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:24:53,130 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:24:56,156 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:29:53,714 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:29:53,717 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:29:53,718 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:29:53,719 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:29:55,071 [INFO] Found 10 unread email(s).
+2026-02-25 00:30:55,434 [INFO] Found 10 unread email(s).
+2026-02-25 00:31:55,806 [INFO] Found 10 unread email(s).
+2026-02-25 00:32:56,179 [INFO] Found 10 unread email(s).
+2026-02-25 00:33:56,558 [INFO] Found 10 unread email(s).
+2026-02-25 00:34:56,908 [INFO] Found 10 unread email(s).
+2026-02-25 00:35:57,228 [INFO] Found 10 unread email(s).
+2026-02-25 00:36:57,517 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:37:42,749 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:37:42,752 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:37:42,754 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:37:42,754 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:37:46,463 [INFO] Found 10 unread email(s).
+2026-02-25 00:38:46,768 [INFO] Found 10 unread email(s).
+2026-02-25 00:39:47,067 [INFO] Found 10 unread email(s).
+2026-02-25 00:40:47,683 [INFO] Found 10 unread email(s).
+2026-02-25 00:41:48,571 [INFO] Found 10 unread email(s).
+2026-02-25 00:42:48,864 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:43:31,742 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:43:31,751 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:43:31,753 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:43:31,753 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:43:34,883 [INFO] Found 10 unread email(s).
+2026-02-25 00:44:35,431 [INFO] Found 10 unread email(s).
+2026-02-25 00:45:35,728 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:48:32,263 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:48:32,271 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:48:32,272 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:48:32,273 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:48:35,305 [INFO] Found 10 unread email(s).
+2026-02-25 00:49:35,594 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:53:32,319 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:53:32,332 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:53:32,333 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:53:32,333 [INFO] Gmail watcher started. Polling every 60s...
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 00:58:32,742 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:58:32,808 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:58:32,814 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:58:32,815 [INFO] Gmail watcher started. Polling every 60s...
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 01:03:37,847 [INFO] Refreshing expired Gmail token...
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:08:24,430 [INFO] Refreshing expired Gmail token...
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000002730BD4AED0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002730BD4AED0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002730BD4AED0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+    service = authenticate_gmail()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+    creds.refresh(Request())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+    ) = _client._token_endpoint_request_no_throw(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+    response = request(
+               ^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+    raise new_exc from caught_exc
+google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000002730BD4AED0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:13:32,328 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:13:32,363 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:13:32,397 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:13:32,397 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:13:33,800 [INFO] Found 10 unread email(s).
+2026-02-25 11:14:34,175 [INFO] Found 10 unread email(s).
+2026-02-25 11:15:34,551 [INFO] Found 10 unread email(s).
+2026-02-25 11:16:34,918 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:18:18,584 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:18:18,593 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:18:18,595 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:18:18,595 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:18:21,472 [INFO] Found 10 unread email(s).
+2026-02-25 11:19:21,796 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:23:17,012 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:23:17,017 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:23:17,018 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:23:17,018 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:23:19,933 [INFO] Found 10 unread email(s).
+2026-02-25 11:24:20,293 [INFO] Found 10 unread email(s).
+2026-02-25 11:25:20,606 [INFO] Found 10 unread email(s).
+2026-02-25 11:26:20,924 [INFO] Found 10 unread email(s).
+2026-02-25 11:27:21,250 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:28:17,020 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:28:17,022 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:28:17,022 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:28:17,024 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:28:18,609 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:33:20,787 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:33:20,800 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:33:20,801 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:33:20,801 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:33:52,042 [INFO] Found 10 unread email(s).
+2026-02-25 11:34:52,619 [INFO] Found 10 unread email(s).
+2026-02-25 11:35:52,988 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 11:36:04,232 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:36:04,240 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:36:04,242 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:36:04,242 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:36:07,059 [INFO] Found 10 unread email(s).
+2026-02-25 11:37:07,506 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:21:07,462 [INFO] Refreshing expired Gmail token...
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+    raise new_e
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+    conn.connect()
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000021F667539D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021F667539D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+    response = self.session.request(
+               ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021F667539D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+    service = authenticate_gmail()
+              ^^^^^^^^^^^^^^^^^^^^
+  File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+    creds.refresh(Request())
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+    ) = reauth.refresh_grant(
+        ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+    ) = _client._token_endpoint_request_no_throw(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+    response = request(
+               ^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+    raise new_exc from caught_exc
+google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021F667539D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:36:01,482 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 14:36:01,484 [INFO] Gmail API authenticated successfully.
+2026-02-25 14:36:01,484 [INFO] Loaded 23 previously processed email IDs.
+2026-02-25 14:36:01,486 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 14:36:02,503 [INFO] Found 10 unread email(s).
+2026-02-25 14:37:02,836 [INFO] Found 10 unread email(s).
+2026-02-25 14:38:03,151 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:41:05,885 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 14:41:05,898 [INFO] Gmail API authenticated successfully.
+2026-02-25 14:41:05,899 [INFO] Loaded 23 previously processed email IDs.
+2026-02-25 14:41:05,899 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 14:41:07,870 [INFO] Found 10 unread email(s).
+2026-02-25 14:42:08,363 [INFO] Found 10 unread email(s).
+2026-02-25 14:43:08,752 [INFO] Found 10 unread email(s).
+
+=======================================================
+  AI Employee — Gmail Watcher (Silver Tier)
+=======================================================
+  Output   : D:\Heck ---0\AI Empolyee\vault\Needs_Action
+  Poll     : every 60s
+  Press Ctrl+C to stop
+=======================================================
+
+2026-02-25 14:51:04,020 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 14:51:04,025 [INFO] Gmail API authenticated successfully.
+2026-02-25 14:51:04,026 [INFO] Loaded 23 previously processed email IDs.
+2026-02-25 14:51:04,026 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 14:51:07,130 [INFO] Found 10 unread email(s).
+2026-02-25 14:52:07,525 [INFO] Found 10 unread email(s).

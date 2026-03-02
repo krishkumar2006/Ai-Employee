@@ -1,0 +1,506 @@
+2026-02-20 23:56:33,984 [ERROR] META_PAGE_ACCESS_TOKEN not set â€” cannot start. Check .env
+2026-02-20 23:56:52,105 [ERROR] META_PAGE_ACCESS_TOKEN not set â€” cannot start. Check .env
+2026-02-21 00:43:04,735 [INFO] Waiting for Facebook login...
+2026-02-21 00:43:04,736 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-21 00:43:40,161 [INFO] Facebook logged in!
+2026-02-21 00:43:43,300 [INFO] Waiting for Instagram login...
+2026-02-21 00:43:43,302 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-21 00:44:49,733 [INFO] Instagram logged in!
+2026-02-21 00:44:49,733 [INFO] Both platforms ready. Polling every 60s...
+2026-02-21 01:02:33,071 [INFO] Shutting down Meta poster...
+2026-02-25 00:00:13,305 [INFO] Waiting for Facebook login...
+2026-02-25 00:00:13,305 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 00:00:13,534 [INFO] Facebook logged in!
+2026-02-25 00:00:22,677 [INFO] Waiting for Instagram login...
+2026-02-25 00:00:22,678 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 00:00:22,858 [INFO] Instagram logged in!
+2026-02-25 00:00:22,859 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 606, in main
+    fb_context: BrowserContext = pw.chromium.launch_persistent_context(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+<launched> pid=10360
+Call log:
+  - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+  - <launched> pid=10360
+  - [pid=10360] <gracefully close start>
+  - [pid=10360] <kill>
+  - [pid=10360] <will force kill>
+  - [pid=10360] taskkill stderr: ERROR: The process "10360" not found.
+  - [pid=10360] <process did exit: exitCode=21, signal=null>
+  - [pid=10360] starting temporary directories cleanup
+  - [pid=10360] finished temporary directories cleanup
+  - [pid=10360] <gracefully close end>
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:42:48,453 [INFO] Waiting for Facebook login...
+2026-02-25 00:42:48,454 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 00:42:48,749 [INFO] Facebook logged in!
+2026-02-25 00:42:54,315 [INFO] Waiting for Instagram login...
+2026-02-25 00:42:54,315 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 00:42:54,540 [INFO] Instagram logged in!
+2026-02-25 00:42:54,540 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 00:42:54,540 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:43:34,571 [INFO] Waiting for Facebook login...
+2026-02-25 00:43:34,571 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 00:43:36,048 [INFO] Facebook logged in!
+2026-02-25 00:43:44,402 [INFO] Waiting for Instagram login...
+2026-02-25 00:43:44,402 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 00:43:45,122 [INFO] Instagram logged in!
+2026-02-25 00:43:45,122 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 00:43:45,122 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:48:33,564 [INFO] Waiting for Facebook login...
+2026-02-25 00:48:33,565 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 00:48:34,062 [INFO] Facebook logged in!
+2026-02-25 00:48:41,756 [INFO] Waiting for Instagram login...
+2026-02-25 00:48:41,756 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 00:48:43,107 [INFO] Instagram logged in!
+2026-02-25 00:48:43,107 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 00:48:43,107 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 606, in main
+    fb_context: BrowserContext = pw.chromium.launch_persistent_context(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+<launched> pid=9008
+[pid=9008][out] Opening in existing browser session.
+Call log:
+  - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+  - <launched> pid=9008
+  - [pid=9008][out] Opening in existing browser session.
+  - [pid=9008] <gracefully close start>
+  - [pid=9008] <kill>
+  - [pid=9008] <will force kill>
+  - [pid=9008] taskkill stderr: ERROR: The process "9008" not found.
+  - [pid=9008] <process did exit: exitCode=0, signal=null>
+  - [pid=9008] starting temporary directories cleanup
+  - [pid=9008] finished temporary directories cleanup
+  - [pid=9008] <gracefully close end>
+
+2026-02-25 11:09:13,398 [INFO] Waiting for Facebook login...
+2026-02-25 11:09:13,400 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:13,601 [INFO] Facebook logged in!
+2026-02-25 11:09:36,367 [INFO] Waiting for Facebook login...
+2026-02-25 11:09:36,367 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:36,485 [INFO] Facebook logged in!
+2026-02-25 11:09:40,986 [INFO] Waiting for Instagram login...
+2026-02-25 11:09:40,986 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:41,088 [INFO] Instagram logged in!
+2026-02-25 11:09:41,089 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 606, in main
+    fb_context: BrowserContext = pw.chromium.launch_persistent_context(
+                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+    result = await self._channel.send_return_as_dict(
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+Browser logs:
+
+<launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+<launched> pid=12040
+Call log:
+  - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+  - <launched> pid=12040
+  - [pid=12040] <gracefully close start>
+  - [pid=12040] <kill>
+  - [pid=12040] <will force kill>
+  - [pid=12040] taskkill stderr: ERROR: The process "12040" not found.
+  - [pid=12040] <process did exit: exitCode=21, signal=null>
+  - [pid=12040] starting temporary directories cleanup
+  - [pid=12040] finished temporary directories cleanup
+  - [pid=12040] <gracefully close end>
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:18:29,509 [INFO] Waiting for Facebook login...
+2026-02-25 11:18:29,510 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:18:29,652 [INFO] Facebook logged in!
+2026-02-25 11:18:37,624 [INFO] Waiting for Instagram login...
+2026-02-25 11:18:37,624 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 11:18:37,755 [INFO] Instagram logged in!
+2026-02-25 11:18:37,755 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 11:18:37,755 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:23:23,286 [INFO] Waiting for Facebook login...
+2026-02-25 11:23:23,286 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:23:23,615 [INFO] Facebook logged in!
+2026-02-25 11:23:31,949 [INFO] Waiting for Instagram login...
+2026-02-25 11:23:31,949 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 11:23:32,386 [INFO] Instagram logged in!
+2026-02-25 11:23:32,386 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 11:23:32,386 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 614, in main
+    fb_page.goto(FB_URL, timeout=60_000, wait_until="domcontentloaded")
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.facebook.com/
+Call log:
+  - navigating to "https://www.facebook.com/", waiting until "domcontentloaded"
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:36:08,218 [INFO] Waiting for Facebook login...
+2026-02-25 11:36:08,218 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:36:09,565 [INFO] Facebook logged in!
+2026-02-25 11:36:16,571 [INFO] Waiting for Instagram login...
+2026-02-25 11:36:16,571 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 11:36:17,682 [INFO] Instagram logged in!
+2026-02-25 11:36:17,683 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 11:36:17,683 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 614, in main
+    fb_page.goto(FB_URL, timeout=60_000, wait_until="domcontentloaded")
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.facebook.com/
+Call log:
+  - navigating to "https://www.facebook.com/", waiting until "domcontentloaded"
+
+2026-02-25 14:21:51,963 [INFO] Waiting for Facebook login...
+2026-02-25 14:21:51,963 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:21:52,072 [INFO] Facebook logged in!
+2026-02-25 14:21:58,494 [INFO] Waiting for Instagram login...
+2026-02-25 14:21:58,494 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 14:21:58,616 [INFO] Instagram logged in!
+2026-02-25 14:21:58,616 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:31:08,133 [INFO] Waiting for Facebook login...
+2026-02-25 14:31:08,133 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:31:08,579 [INFO] Facebook logged in!
+ in the browser window. You have 10 minutes.
+2026-02-25 14:31:08,579 [INFO] Facebook logged in!
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:36:20,883 [INFO] Waiting for Facebook login...
+2026-02-25 14:36:20,883 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:36:21,195 [INFO] Facebook logged in!
+2026-02-25 14:36:30,016 [INFO] Waiting for Instagram login...
+2026-02-25 14:36:30,025 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 14:36:33,082 [INFO] Instagram logged in!
+2026-02-25 14:36:33,082 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 14:36:33,082 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:41:08,944 [INFO] Waiting for Facebook login...
+2026-02-25 14:41:08,944 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:41:09,159 [INFO] Facebook logged in!
+2026-02-25 14:41:14,011 [INFO] Waiting for Instagram login...
+2026-02-25 14:41:14,012 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 14:41:14,197 [INFO] Instagram logged in!
+2026-02-25 14:41:14,197 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 14:41:14,197 [INFO] Both platforms ready. Polling every 60s...
+
+============================================================
+  AI Employee — Meta Poster (Facebook + Instagram)
+  Free Edition — Playwright browser automation
+============================================================
+  Drafts    : D:\Heck ---0\AI Empolyee\vault\Meta_Drafts
+  FB Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook
+  IG Session: D:\Heck ---0\AI Empolyee\vault\.meta_session\instagram
+  Poll      : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:51:08,984 [INFO] Waiting for Facebook login...
+2026-02-25 14:51:08,986 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:51:09,235 [INFO] Facebook logged in!
+2026-02-25 14:51:14,660 [INFO] Waiting for Instagram login...
+2026-02-25 14:51:14,661 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 14:51:14,916 [INFO] Instagram logged in!
+2026-02-25 14:51:14,916 [INFO] Both platforms ready. Polling every 60s...
+] Instagram logged in!
+2026-02-25 14:51:14,916 [INFO] Both platforms ready. Polling every 60s...

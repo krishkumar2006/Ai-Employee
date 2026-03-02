@@ -1,0 +1,273 @@
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:43:49,793 [INFO] Waiting for LinkedIn login...
+2026-02-25 00:43:49,795 [INFO] If first run, log in manually in the browser window.
+2026-02-25 00:43:57,372 [INFO] LinkedIn login detected!
+2026-02-25 00:43:57,372 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 00:48:53,213 [INFO] Waiting for LinkedIn login...
+2026-02-25 00:48:53,213 [INFO] If first run, log in manually in the browser window.
+2026-02-25 00:48:55,259 [INFO] LinkedIn login detected!
+2026-02-25 00:48:55,259 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 624, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 531, in main
+    run_watcher()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 459, in run_watcher
+    page.goto(LI_FEED_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.linkedin.com/feed/
+Call log:
+  - navigating to "https://www.linkedin.com/feed/", waiting until "load"
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:13:46,090 [INFO] Waiting for LinkedIn login...
+2026-02-25 11:13:46,090 [INFO] If first run, log in manually in the browser window.
+2026-02-25 11:13:47,179 [INFO] LinkedIn login detected!
+2026-02-25 11:13:47,179 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:18:31,744 [INFO] Waiting for LinkedIn login...
+2026-02-25 11:18:31,744 [INFO] If first run, log in manually in the browser window.
+2026-02-25 11:18:33,299 [INFO] LinkedIn login detected!
+2026-02-25 11:18:33,300 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:23:46,960 [INFO] Waiting for LinkedIn login...
+2026-02-25 11:23:46,960 [INFO] If first run, log in manually in the browser window.
+2026-02-25 11:23:48,303 [INFO] LinkedIn login detected!
+2026-02-25 11:23:48,303 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 624, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 531, in main
+    run_watcher()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 459, in run_watcher
+    page.goto(LI_FEED_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_NAME_NOT_RESOLVED at https://www.linkedin.com/feed/
+Call log:
+  - navigating to "https://www.linkedin.com/feed/", waiting until "load"
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 11:36:16,102 [INFO] Waiting for LinkedIn login...
+2026-02-25 11:36:16,102 [INFO] If first run, log in manually in the browser window.
+2026-02-25 11:36:19,981 [INFO] LinkedIn login detected!
+2026-02-25 11:36:19,982 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+Traceback (most recent call last):
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 624, in <module>
+    main()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 531, in main
+    run_watcher()
+  File "D:\Heck ---0\AI Empolyee\watchers\linkedin_poster.py", line 459, in run_watcher
+    page.goto(LI_FEED_URL)
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+    self._sync(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+    return task.result()
+           ^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+    return await self._main_frame.goto(**locals_to_params(locals()))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+    await self._channel.send(
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+    return await self._connection.wrap_api_call(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+    raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.linkedin.com/feed/
+Call log:
+  - navigating to "https://www.linkedin.com/feed/", waiting until "load"
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:31:12,294 [INFO] Waiting for LinkedIn login...
+2026-02-25 14:31:12,294 [INFO] If first run, log in manually in the browser window.
+
+============================================================
+  AI Employee — LinkedIn Poster (Silver Tier)
+============================================================
+  Drafts   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts
+  Posted   : D:\Heck ---0\AI Empolyee\vault\LinkedIn_Posted
+  Session  : D:\Heck ---0\AI Empolyee\watchers\.linkedin_session
+  Poll     : every 60s
+  Press Ctrl+C to stop
+============================================================
+
+2026-02-25 14:36:32,356 [INFO] Waiting for LinkedIn login...
+2026-02-25 14:36:32,357 [INFO] If first run, log in manually in the browser window.
+2026-02-25 14:36:39,081 [INFO] LinkedIn login detected!
+2026-02-25 14:36:39,081 [INFO] LinkedIn poster started. Watching D:\Heck ---0\AI Empolyee\vault\LinkedIn_Drafts

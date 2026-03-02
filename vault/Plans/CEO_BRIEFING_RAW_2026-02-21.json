@@ -1,0 +1,69 @@
+{
+  "date": "2026-02-21",
+  "kpis": [
+    {
+      "kpi": "Weekly Revenue Collected",
+      "value": "0 PKR",
+      "target": "92,379 PKR",
+      "status": "FAIL",
+      "note": "Week 2026-02-14 \u2192 2026-02-21"
+    },
+    {
+      "kpi": "New Invoices This Week",
+      "value": "1",
+      "target": "\u2265 3",
+      "status": "WARN",
+      "note": "PKR 73,500 invoiced"
+    },
+    {
+      "kpi": "Month Revenue vs. Prorated Target",
+      "value": "PKR 73,500",
+      "target": "PKR 338,710",
+      "status": "FAIL",
+      "note": "Day 21 of month"
+    },
+    {
+      "kpi": "Overdue Invoices (>30 days)",
+      "value": "0",
+      "target": "0",
+      "status": "PASS",
+      "note": "PKR 0 at risk"
+    },
+    {
+      "kpi": "Net Cash Flow (This Month)",
+      "value": "PKR 0",
+      "target": "> 0",
+      "status": "PASS",
+      "note": "In: 0 | Out: 0"
+    },
+    {
+      "kpi": "Stale Draft Invoices (>3 days)",
+      "value": "0",
+      "target": "0",
+      "status": "PASS",
+      "note": "Draft invoices should be confirmed or deleted"
+    }
+  ],
+  "subscription_audit": {
+    "total": 0.0,
+    "max_total": 50000,
+    "max_single": 15000,
+    "over_budget": false,
+    "approved_names": [
+      "claude pro",
+      "github copilot",
+      "hostinger vps"
+    ]
+  },
+  "subscription_flagged": [],
+  "pending_count": 12,
+  "type_counts": {
+    "email": 11,
+    "file_drop": 1
+  },
+  "odoo_available": true,
+  "week_revenue": 73500.0,
+  "week_collected": 0,
+  "overdue_count": 0,
+  "overdue_total": 0
+}
