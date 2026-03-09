@@ -1,0 +1,19 @@
+# Secrets
+.env
+watchers/credentials.json
+watchers/gmail_token.json
+watchers/.gmail_processed_ids
+watchers/.whatsapp_session/
+watchers/.whatsapp_last_check.json
+
+# Node
+node_modules/
+mcp/node_modules/
+
+# Python
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db
