@@ -1,0 +1,158 @@
+# =============================================================================
+# docker-compose.yaml — Odoo 17 Community on Oracle Always Free ARM VM
+# =============================================================================
+#
+# Stack:
+#   postgres  — PostgreSQL 15 (data persisted in named volume)
+#   odoo      — Odoo 17 Community (ARM64-compatible)
+#   nginx     — Reverse proxy, SSL termination
+#   certbot   — Let's Encrypt / HTTPS (free)
+#
+# Prerequisites on Oracle VM:
+#   sudo apt install docker.io docker-compose-plugin -y
+#   sudo usermod -aG docker ubuntu && newgrp docker
+#
+# Ports (host):
+#   80   → nginx (HTTP → redirects to HTTPS + certbot challenge)
+#   443  → nginx → odoo:8069 (HTTPS)
+#   8069 binds to 127.0.0.1 ONLY (not exposed publicly — nginx proxies)
+#
+# Usage:
+#   cd ~/ai-employee/docker
+#   cp .env.docker.example .env.docker && nano .env.docker
+#   bash init-letsencrypt.sh          # first run only
+#   docker compose up -d
+#   docker compose logs -f odoo       # tail logs
+#
+# Upgrade Odoo version:
+#   Change odoo:17 → odoo:18 (once available and tested)
+#   Then: docker compose pull odoo && docker compose up -d
+# =============================================================================
+
+name: ai-employee-odoo
+
+services:
+
+  # ---------------------------------------------------------------------------
+  # PostgreSQL 15
+  # ---------------------------------------------------------------------------
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+      POSTGRES_DB: odoo
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - odoo_internal
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U odoo -d odoo"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+    # Tune for Oracle ARM (4 OCPUs, 24 GB RAM)
+    command: >
+      postgres
+        -c max_connections=100
+        -c shared_buffers=512MB
+        -c effective_cache_size=1536MB
+        -c maintenance_work_mem=128MB
+        -c checkpoint_completion_target=0.9
+        -c wal_buffers=16MB
+        -c default_statistics_target=100
+
+  # ---------------------------------------------------------------------------
+  # Odoo 17 Community
+  # ---------------------------------------------------------------------------
+  odoo:
+    image: odoo:17
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      # DB connection (picked up by official Odoo Docker entrypoint)
+      HOST: postgres
+      PORT: "5432"
+      USER: odoo
+      PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - odoo_data:/var/lib/odoo
+      - ./odoo.conf:/etc/odoo/odoo.conf:ro
+      - ./addons:/mnt/extra-addons
+    ports:
+      - "127.0.0.1:8069:8069"   # localhost only — nginx proxies
+      - "127.0.0.1:8072:8072"   # longpolling — nginx proxies
+    networks:
+      - odoo_internal
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8069/web/health || exit 1"]
+      interval: 30s
+      timeout: 15s
+      retries: 3
+      start_period: 60s
+
+  # ---------------------------------------------------------------------------
+  # Nginx (reverse proxy + SSL)
+  # ---------------------------------------------------------------------------
+  nginx:
+    image: nginx:alpine
+    restart: unless-stopped
+    depends_on:
+      odoo:
+        condition: service_healthy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/options-ssl-nginx.conf:/etc/nginx/options-ssl-nginx.conf:ro
+      - certbot_certs:/etc/letsencrypt:ro
+      - certbot_www:/var/www/certbot:ro
+    networks:
+      - odoo_internal
+    command: >
+      /bin/sh -c
+      "while :; do sleep 6h & wait $${!}; nginx -s reload; done &
+       nginx -g 'daemon off;'"
+
+  # ---------------------------------------------------------------------------
+  # Certbot — Let's Encrypt certificate renewal
+  # ---------------------------------------------------------------------------
+  certbot:
+    image: certbot/certbot
+    volumes:
+      - certbot_certs:/etc/letsencrypt
+      - certbot_www:/var/www/certbot
+    entrypoint: >
+      /bin/sh -c
+      "trap exit TERM;
+       while :; do
+         certbot renew --webroot -w /var/www/certbot --quiet;
+         sleep 12h & wait $${!};
+       done"
+
+# ---------------------------------------------------------------------------
+# Named volumes (persist across container restarts)
+# ---------------------------------------------------------------------------
+volumes:
+  postgres_data:
+    driver: local
+  odoo_data:
+    driver: local
+  certbot_certs:
+    driver: local
+  certbot_www:
+    driver: local
+
+# ---------------------------------------------------------------------------
+# Networks
+# ---------------------------------------------------------------------------
+networks:
+  odoo_internal:
+    driver: bridge
+    internal: false   # nginx needs external access for certbot HTTP challenge

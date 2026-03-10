@@ -1,0 +1,785 @@
+2026-02-24 23:59:52: 2026-02-24 23:59:52,547 [INFO] Refreshing expired Gmail token...
+2026-02-24 23:59:56: Traceback (most recent call last):
+2026-02-24 23:59:56:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-24 23:59:56:     main()
+2026-02-24 23:59:56:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-24 23:59:56:     service = authenticate_gmail()
+2026-02-24 23:59:56:          ^^^^^^^^^^^^^^^^^^^^
+2026-02-24 23:59:56:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-24 23:59:56:     creds.refresh(Request())
+2026-02-24 23:59:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-24 23:59:56:     ) = reauth.refresh_grant(
+2026-02-24 23:59:56:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-24 23:59:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-24 23:59:56:     _client._handle_error_response(response_data, retryable_error)
+2026-02-24 23:59:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-24 23:59:56:     raise exceptions.RefreshError(
+2026-02-24 23:59:56: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:00:09: 2026-02-25 00:00:09,475 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:00:11: Traceback (most recent call last):
+2026-02-25 00:00:11:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:00:11:     main()
+2026-02-25 00:00:11:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:00:11:     service = authenticate_gmail()
+2026-02-25 00:00:11:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:11:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:00:11:     creds.refresh(Request())
+2026-02-25 00:00:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:00:11:     ) = reauth.refresh_grant(
+2026-02-25 00:00:11:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:00:11:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:00:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:00:11:     raise exceptions.RefreshError(
+2026-02-25 00:00:11: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:00:24: 2026-02-25 00:00:24,585 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:00:25: Traceback (most recent call last):
+2026-02-25 00:00:25:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:00:25:     main()
+2026-02-25 00:00:25:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:00:25:     service = authenticate_gmail()
+2026-02-25 00:00:25:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:25:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:00:25:     creds.refresh(Request())
+2026-02-25 00:00:25:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:00:25: 
+2026-02-25 00:00:25:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:25:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:00:25:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:00:25:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:00:25:     raise exceptions.RefreshError(
+2026-02-25 00:00:25: 
+2026-02-25 00:00:38: 2026-02-25 00:00:38,675 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:00:41: Traceback (most recent call last):
+2026-02-25 00:00:41:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:00:41:     main()
+2026-02-25 00:00:41:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:00:41:     service = authenticate_gmail()
+2026-02-25 00:00:41:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:41:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:00:41:     creds.refresh(Request())
+2026-02-25 00:00:41:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:00:41:     ) = reauth.refresh_grant(
+2026-02-25 00:00:41: ^^^^^^^^^^^^^^
+2026-02-25 00:00:41:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:00:41:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:00:41:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:00:41:     raise exceptions.RefreshError(
+2026-02-25 00:00:41: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:00:52: 2026-02-25 00:00:52,991 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:00:54: Traceback (most recent call last):
+2026-02-25 00:00:54:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:00:54:     main()
+2026-02-25 00:00:54:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:00:54:     service = authenticate_gmail()
+2026-02-25 00:00:54:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:54:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:00:54:     creds.refresh(Request())
+2026-02-25 00:00:54:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:00:54:     ) = reauth.refresh_grant(
+2026-02-25 00:00:54:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:00:54:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:00:54:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:00:54:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:00:54:     raise exceptions.RefreshError(
+2026-02-25 00:00:54: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:01:05: 2026-02-25 00:01:05,922 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:01:06: Traceback (most recent call last):
+2026-02-25 00:01:06:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:01:06:     main()
+2026-02-25 00:01:06:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:01:06:     service = authenticate_gmail()
+2026-02-25 00:01:06:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:01:06:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:01:06:     creds.refresh(Request())
+2026-02-25 00:01:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:01:06:     ) = reauth.refresh_grant(
+2026-02-25 00:01:06:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:01:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:01:06:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:01:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:01:06:     raise exceptions.RefreshError(
+2026-02-25 00:01:06: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:01:18: 2026-02-25 00:01:18,676 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:01:19: Traceback (most recent call last):
+2026-02-25 00:01:19:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:01:19:     main()
+2026-02-25 00:01:19:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:01:19:     service = authenticate_gmail()
+2026-02-25 00:01:19:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:01:19:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:01:19:     creds.refresh(Request())
+2026-02-25 00:01:19:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:01:19:     ) = reauth.refresh_grant(
+2026-02-25 00:01:19: ^^^^^^^^^^^^^^^
+2026-02-25 00:01:19:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:01:19:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:01:19:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:01:19:     raise exceptions.RefreshError(
+2026-02-25 00:01:19: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:01:31: 2026-02-25 00:01:31,703 [INFO] Refreshing expired Gmail token...
+2026-02-25 00:01:33: Traceback (most recent call last):
+2026-02-25 00:01:33:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 00:01:33:     main()
+2026-02-25 00:01:33:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 00:01:33:     service = authenticate_gmail()
+2026-02-25 00:01:33:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:01:33:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 00:01:33:     creds.refresh(Request())
+2026-02-25 00:01:33:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 00:01:33:     ) = reauth.refresh_grant(
+2026-02-25 00:01:33:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 00:01:33:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 370, in refresh_grant
+2026-02-25 00:01:33:     _client._handle_error_response(response_data, retryable_error)
+2026-02-25 00:01:33:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 69, in _handle_error_response
+2026-02-25 00:01:33:     raise exceptions.RefreshError(
+2026-02-25 00:01:33: google.auth.exceptions.RefreshError: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})
+2026-02-25 00:06:30: 2026-02-25 00:06:30,724 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 00:06:30: 2026-02-25 00:06:30,727 [INFO] Gmail API authenticated successfully.
+2026-02-25 00:06:30: 2026-02-25 00:06:30,753 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 00:06:30: 2026-02-25 00:06:30,753 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 00:06:31: 2026-02-25 00:06:31,714 [INFO] Found 10 unread email(s).
+2026-02-25 00:07:32: 2026-02-25 00:07:32,027 [INFO] Found 10 unread email(s).
+2026-02-25 00:08:32: 2026-02-25 00:08:32,326 [INFO] Found 10 unread email(s).
+2026-02-25 00:09:32: 2026-02-25 00:09:32,660 [INFO] Found 10 unread email(s).
+2026-02-25 00:10:32: 2026-02-25 00:10:32,945 [INFO] Found 10 unread email(s).
+2026-02-25 00:11:33: 2026-02-25 00:11:33,579 [INFO] Found 10 unread email(s).
+2026-02-25 00:12:33: 2026-02-25 00:12:33,951 [INFO] Found 10 unread email(s).
+2026-02-25 00:13:34: 2026-02-25 00:13:34,245 [INFO] Found 10 unread email(s).
+2026-02-25 00:14:34: 2026-02-25 00:14:34,563 [INFO] Found 10 unread email(s).
+2026-02-25 00:15:34: 2026-02-25 00:15:34,895 [INFO] Found 10 unread email(s).
+2026-02-25 00:16:35: 2026-02-25 00:16:35,250 [INFO] Found 10 unread email(s).
+2026-02-25 00:17:35: 2026-02-25 00:17:35,619 [INFO] Found 10 unread email(s).
+2026-02-25 00:18:35: 2026-02-25 00:18:35,996 [INFO] Found 10 unread email(s).
+2026-02-25 00:19:36: 2026-02-25 00:19:36,373 [INFO] Found 10 unread email(s).
+2026-02-25 00:20:36: 2026-02-25 00:20:36,746 [INFO] Found 10 unread email(s).
+2026-02-25 00:21:37: 2026-02-25 00:21:37,031 [INFO] Found 10 unread email(s).
+2026-02-25 00:22:37: 2026-02-25 00:22:37,393 [INFO] Found 10 unread email(s).
+2026-02-25 00:23:37: 2026-02-25 00:23:37,869 [INFO] Found 10 unread email(s).
+2026-02-25 00:24:38: 2026-02-25 00:24:38,245 [INFO] Found 10 unread email(s).
+2026-02-25 00:25:38: 2026-02-25 00:25:38,618 [INFO] Found 10 unread email(s).
+2026-02-25 00:26:38: 2026-02-25 00:26:38,991 [INFO] Found 10 unread email(s).
+2026-02-25 00:27:39: 2026-02-25 00:27:39,570 [INFO] Found 10 unread email(s).
+2026-02-25 00:28:39: 2026-02-25 00:28:39,849 [INFO] Found 10 unread email(s).
+2026-02-25 00:29:40: 2026-02-25 00:29:40,219 [INFO] Found 10 unread email(s).
+2026-02-25 00:30:40: 2026-02-25 00:30:40,593 [INFO] Found 10 unread email(s).
+2026-02-25 00:31:40: 2026-02-25 00:31:40,877 [INFO] Found 10 unread email(s).
+2026-02-25 00:32:41: 2026-02-25 00:32:41,162 [INFO] Found 10 unread email(s).
+2026-02-25 00:33:41: 2026-02-25 00:33:41,511 [INFO] Found 10 unread email(s).
+2026-02-25 00:34:42: 2026-02-25 00:34:42,003 [INFO] Found 10 unread email(s).
+2026-02-25 00:35:42: 2026-02-25 00:35:42,387 [INFO] Found 10 unread email(s).
+2026-02-25 00:36:42: 2026-02-25 00:36:42,744 [INFO] Found 10 unread email(s).
+2026-02-25 00:37:43: 2026-02-25 00:37:43,023 [INFO] Found 10 unread email(s).
+2026-02-25 00:38:43: 2026-02-25 00:38:43,306 [INFO] Found 10 unread email(s).
+2026-02-25 00:39:43: 2026-02-25 00:39:43,671 [INFO] Found 10 unread email(s).
+2026-02-25 00:40:44: 2026-02-25 00:40:44,036 [INFO] Found 10 unread email(s).
+2026-02-25 00:41:44: 2026-02-25 00:41:44,325 [INFO] Found 10 unread email(s).
+2026-02-25 00:42:44: 2026-02-25 00:42:44,601 [INFO] Found 10 unread email(s).
+2026-02-25 00:43:44: 2026-02-25 00:43:44,919 [INFO] Found 10 unread email(s).
+2026-02-25 00:44:45: 2026-02-25 00:44:45,216 [INFO] Found 10 unread email(s).
+2026-02-25 00:45:45: 2026-02-25 00:45:45,511 [INFO] Found 10 unread email(s).
+2026-02-25 00:46:45: 2026-02-25 00:46:45,794 [INFO] Found 10 unread email(s).
+2026-02-25 00:47:46: 2026-02-25 00:47:46,090 [INFO] Found 10 unread email(s).
+2026-02-25 00:48:46: 2026-02-25 00:48:46,392 [INFO] Found 10 unread email(s).
+2026-02-25 00:49:46: 2026-02-25 00:49:46,680 [INFO] Found 10 unread email(s).
+2026-02-25 00:50:47: 2026-02-25 00:50:47,003 [INFO] Found 10 unread email(s).
+2026-02-25 00:51:47: 2026-02-25 00:51:47,303 [INFO] Found 10 unread email(s).
+2026-02-25 00:52:47: 2026-02-25 00:52:47,613 [INFO] Found 10 unread email(s).
+2026-02-25 00:53:47: 2026-02-25 00:53:47,983 [INFO] Found 10 unread email(s).
+2026-02-25 00:54:48: 2026-02-25 00:54:48,361 [INFO] Found 10 unread email(s).
+2026-02-25 00:55:48: 2026-02-25 00:55:48,737 [INFO] Found 10 unread email(s).
+2026-02-25 00:56:49: 2026-02-25 00:56:49,113 [INFO] Found 10 unread email(s).
+2026-02-25 00:57:49: 2026-02-25 00:57:49,795 [INFO] Found 10 unread email(s).
+2026-02-25 00:58:50: 2026-02-25 00:58:50,325 [INFO] Found 10 unread email(s).
+2026-02-25 00:59:50: 2026-02-25 00:59:50,645 [INFO] Found 10 unread email(s).
+2026-02-25 01:00:50: 2026-02-25 01:00:50,948 [INFO] Found 10 unread email(s).
+2026-02-25 01:01:53: 2026-02-25 01:01:53,445 [INFO] Found 10 unread email(s).
+2026-02-25 01:02:53: 2026-02-25 01:02:53,817 [INFO] Found 10 unread email(s).
+2026-02-25 01:03:54: 2026-02-25 01:03:54,189 [INFO] Found 10 unread email(s).
+2026-02-25 01:04:54: 2026-02-25 01:04:54,562 [INFO] Found 10 unread email(s).
+2026-02-25 01:05:54: 2026-02-25 01:05:54,942 [INFO] Found 10 unread email(s).
+2026-02-25 11:08:24: 2026-02-25 11:08:24,430 [INFO] Refreshing expired Gmail token...
+2026-02-25 11:08:24: Traceback (most recent call last):
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 11:08:24:     sock = connection.create_connection(
+2026-02-25 11:08:24:  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 11:08:24:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 11:08:24:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 11:08:24:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 11:08:24:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: Traceback (most recent call last):
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 11:08:24:     response = self._make_request(
+2026-02-25 11:08:24:          ^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 11:08:24:     raise new_e
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 11:08:24:     self._validate_conn(conn)
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 11:08:24:     conn.connect()
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 11:08:24:     self.sock = sock = self._new_conn()
+2026-02-25 11:08:24:                        ^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 11:08:24:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 11:08:24: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001EB8206B990>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: Traceback (most recent call last):
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 11:08:24:     resp = conn.urlopen(
+2026-02-25 11:08:24:       ^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 11:08:24:     retries = retries.increment(
+2026-02-25 11:08:24: ^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 11:08:24:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 11:08:24:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB8206B990>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: During handling of the above exception, another exception occurred:
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: Traceback (most recent call last):
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 11:08:24:     response = self.session.request(
+2026-02-25 11:08:24: ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 11:08:24:     resp = self.send(prep, **send_kwargs)
+2026-02-25 11:08:24:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 11:08:24:     r = adapter.send(request, **kwargs)
+2026-02-25 11:08:24:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 11:08:24:     raise ConnectionError(e, request=request)
+2026-02-25 11:08:24: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB8206B990>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:24: 
+2026-02-25 11:08:24: Traceback (most recent call last):
+2026-02-25 11:08:24:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 11:08:24:     main()
+2026-02-25 11:08:24:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 11:08:24:     service = authenticate_gmail()
+2026-02-25 11:08:24:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 11:08:24:     creds.refresh(Request())
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 11:08:24:     ) = reauth.refresh_grant(
+2026-02-25 11:08:24: ^^^
+2026-02-25 11:08:24: ^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 11:08:24:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 11:08:24:   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 11:08:24:     response = request(
+2026-02-25 11:08:24:          ^^^^^^^^
+2026-02-25 11:08:24:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 11:08:24:     raise new_exc from caught_exc
+2026-02-25 11:08:24: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001EB8206B990>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:35: 2026-02-25 11:08:35,883 [INFO] Refreshing expired Gmail token...
+2026-02-25 11:08:35: Traceback (most recent call last):
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 11:08:35:     sock = connection.create_connection(
+2026-02-25 11:08:35:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 11:08:35:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 11:08:35: ^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 11:08:35:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 11:08:35:        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: Traceback (most recent call last):
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 11:08:35:     response = self._make_request(
+2026-02-25 11:08:35:                ^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 11:08:35:     raise new_e
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 11:08:35:     self._validate_conn(conn)
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 11:08:35:     conn.connect()
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 11:08:35:     self.sock = sock = self._new_conn()
+2026-02-25 11:08:35:                        ^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 11:08:35:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 11:08:35: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000024228E9AF90>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: Traceback (most recent call last):
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 11:08:35:     resp = conn.urlopen(
+2026-02-25 11:08:35:            ^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 11:08:35:     retries = retries.increment(
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 11:08:35:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 11:08:35: ^^^^^^
+2026-02-25 11:08:35: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024228E9AF90>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: During handling of the above exception, another exception occurred:
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: Traceback (most recent call last):
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 11:08:35:     response = self.session.request(
+2026-02-25 11:08:35:                ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 11:08:35:     resp = self.send(prep, **send_kwargs)
+2026-02-25 11:08:35:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 11:08:35:     r = adapter.send(request, **kwargs)
+2026-02-25 11:08:35:       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 11:08:35:     raise ConnectionError(e, request=request)
+2026-02-25 11:08:35: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024228E9AF90>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:35: 
+2026-02-25 11:08:35: Traceback (most recent call last):
+2026-02-25 11:08:35:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 11:08:35:     main()
+2026-02-25 11:08:35:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 11:08:35:     service = authenticate_gmail()
+2026-02-25 11:08:35:       ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 11:08:35:     creds.refresh(Request())
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 11:08:35:     ) = reauth.refresh_grant(
+2026-02-25 11:08:35: ^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 11:08:35:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 11:08:35:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 11:08:35:     response = request(
+2026-02-25 11:08:35:                ^^^^^^^^
+2026-02-25 11:08:35:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 11:08:35:     raise new_exc from caught_exc
+2026-02-25 11:08:35: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000024228E9AF90>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:47: 2026-02-25 11:08:47,224 [INFO] Refreshing expired Gmail token...
+2026-02-25 11:08:47: Traceback (most recent call last):
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 11:08:47:     sock = connection.create_connection(
+2026-02-25 11:08:47:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 11:08:47:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 11:08:47: ^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 11:08:47:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 11:08:47:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: Traceback (most recent call last):
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 11:08:47:     response = self._make_request(
+2026-02-25 11:08:47:                ^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 11:08:47:     self._validate_conn(conn)
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 11:08:47:     conn.connect()
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 11:08:47:     self.sock = sock = self._new_conn()
+2026-02-25 11:08:47:                        ^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 11:08:47:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 11:08:47: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000017ED1C0B0D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: Traceback (most recent call last):
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 11:08:47:     resp = conn.urlopen(
+2026-02-25 11:08:47:            ^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 11:08:47:     retries = retries.increment(
+2026-02-25 11:08:47:               ^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 11:08:47:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 11:08:47: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017ED1C0B0D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: During handling of the above exception, another exception occurred:
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: Traceback (most recent call last):
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 11:08:47:     response = self.session.request(
+2026-02-25 11:08:47:                ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 11:08:47:     resp = self.send(prep, **send_kwargs)
+2026-02-25 11:08:47:       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 11:08:47:     r = adapter.send(request, **kwargs)
+2026-02-25 11:08:47:      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 11:08:47:     raise ConnectionError(e, request=request)
+2026-02-25 11:08:47: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017ED1C0B0D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: The above exception was the direct cause of the following exception:
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: Traceback (most recent call last):
+2026-02-25 11:08:47:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 11:08:47:     main()
+2026-02-25 11:08:47:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 11:08:47:     service = authenticate_gmail()
+2026-02-25 11:08:47:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:47:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 11:08:47:     creds.refresh(Request())
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 11:08:47:     ) = reauth.refresh_grant(
+2026-02-25 11:08:47: ^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 11:08:47:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 11:08:47: ^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 11:08:47:     response = request(
+2026-02-25 11:08:47:                ^^^^^^^^
+2026-02-25 11:08:47:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 11:08:47: 
+2026-02-25 11:08:47: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000017ED1C0B0D0>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 11:09:03: 2026-02-25 11:09:03,409 [INFO] Refreshing expired Gmail token...
+2026-02-25 11:09:04: 2026-02-25 11:09:04,565 [INFO] Gmail token saved to D:\Heck ---0\AI Empolyee\watchers\gmail_token.json
+2026-02-25 11:09:04: 2026-02-25 11:09:04,581 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 11:09:04: 2026-02-25 11:09:04,612 [INFO] Gmail API authenticated successfully.
+2026-02-25 11:09:04: 2026-02-25 11:09:04,628 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 11:09:04: 2026-02-25 11:09:04,628 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 11:09:05: 2026-02-25 11:09:05,981 [INFO] Found 10 unread email(s).
+2026-02-25 11:10:06: 2026-02-25 11:10:06,301 [INFO] Found 10 unread email(s).
+2026-02-25 11:11:06: 2026-02-25 11:11:06,648 [INFO] Found 10 unread email(s).
+2026-02-25 11:12:07: 2026-02-25 11:12:07,129 [INFO] Found 10 unread email(s).
+2026-02-25 11:13:07: 2026-02-25 11:13:07,452 [INFO] Found 10 unread email(s).
+2026-02-25 11:14:07: 2026-02-25 11:14:07,976 [INFO] Found 10 unread email(s).
+2026-02-25 11:15:08: 2026-02-25 11:15:08,334 [INFO] Found 10 unread email(s).
+2026-02-25 11:16:08: 2026-02-25 11:16:08,726 [INFO] Found 10 unread email(s).
+2026-02-25 11:17:09: 2026-02-25 11:17:09,030 [INFO] Found 10 unread email(s).
+2026-02-25 11:18:09: 2026-02-25 11:18:09,372 [INFO] Found 10 unread email(s).
+2026-02-25 11:19:10: 2026-02-25 11:19:10,056 [INFO] Found 10 unread email(s).
+2026-02-25 11:20:10: 2026-02-25 11:20:10,427 [INFO] Found 10 unread email(s).
+2026-02-25 11:21:10: 2026-02-25 11:21:10,804 [INFO] Found 10 unread email(s).
+2026-02-25 11:22:11: 2026-02-25 11:22:11,106 [INFO] Found 10 unread email(s).
+2026-02-25 11:23:11: 2026-02-25 11:23:11,451 [INFO] Found 10 unread email(s).
+2026-02-25 11:24:11: 2026-02-25 11:24:11,771 [INFO] Found 10 unread email(s).
+2026-02-25 11:25:12: 2026-02-25 11:25:12,086 [INFO] Found 10 unread email(s).
+2026-02-25 11:26:12: 2026-02-25 11:26:12,405 [INFO] Found 10 unread email(s).
+2026-02-25 11:27:12: 2026-02-25 11:27:12,727 [INFO] Found 10 unread email(s).
+2026-02-25 11:28:13: 2026-02-25 11:28:13,052 [INFO] Found 10 unread email(s).
+2026-02-25 11:29:13: 2026-02-25 11:29:13,500 [INFO] Found 10 unread email(s).
+2026-02-25 11:30:13: 2026-02-25 11:30:13,868 [INFO] Found 10 unread email(s).
+2026-02-25 11:31:14: 2026-02-25 11:31:14,244 [INFO] Found 10 unread email(s).
+2026-02-25 11:32:14: 2026-02-25 11:32:14,613 [INFO] Found 10 unread email(s).
+2026-02-25 11:33:48: 2026-02-25 11:33:48,458 [INFO] Found 10 unread email(s).
+2026-02-25 11:34:48: 2026-02-25 11:34:48,832 [INFO] Found 10 unread email(s).
+2026-02-25 11:35:49: 2026-02-25 11:35:49,202 [INFO] Found 10 unread email(s).
+2026-02-25 11:36:49: 2026-02-25 11:36:49,618 [INFO] Found 10 unread email(s).
+2026-02-25 14:21:07: 2026-02-25 14:21:07,462 [INFO] Refreshing expired Gmail token...
+2026-02-25 14:21:07: Traceback (most recent call last):
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 14:21:07:     sock = connection.create_connection(
+2026-02-25 14:21:07: ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 14:21:07:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 14:21:07:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 14:21:07:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 14:21:07:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: Traceback (most recent call last):
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 14:21:07:     response = self._make_request(
+2026-02-25 14:21:07: ^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 14:21:07:     raise new_e
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 14:21:07:     self._validate_conn(conn)
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 14:21:07:     conn.connect()
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 14:21:07:     self.sock = sock = self._new_conn()
+2026-02-25 14:21:07:                        ^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 14:21:07:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 14:21:07: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x00000199DE5AB210>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: Traceback (most recent call last):
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 14:21:07:     
+2026-02-25 14:21:07: resp = conn.urlopen(
+2026-02-25 14:21:07:            ^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 14:21:07:     retries = retries.increment(
+2026-02-25 14:21:07:               ^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 14:21:07:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 14:21:07:     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000199DE5AB210>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: During handling of the above exception, another exception occurred:
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: Traceback (most recent call last):
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 14:21:07:     response = self.session.request(
+2026-02-25 14:21:07:  ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 14:21:07:     resp = self.send(prep, **send_kwargs)
+2026-02-25 14:21:07:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 14:21:07:     r = adapter.send(request, **kwargs)
+2026-02-25 14:21:07:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 14:21:07:     raise ConnectionError(e, request=request)
+2026-02-25 14:21:07: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000199DE5AB210>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:07: 
+2026-02-25 14:21:07: Traceback (most recent call last):
+2026-02-25 14:21:07:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 14:21:07:     main()
+2026-02-25 14:21:07:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 14:21:07:     service = authenticate_gmail()
+2026-02-25 14:21:07:               ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 14:21:07:     creds.refresh(Request())
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 14:21:07:     ) = reauth.refresh_grant(
+2026-02-25 14:21:07: ^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 14:21:07:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 14:21:07: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 14:21:07:     response = request(
+2026-02-25 14:21:07:             ^^^^^^^^
+2026-02-25 14:21:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 14:21:07:     raise new_exc from caught_exc
+2026-02-25 14:21:07: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x00000199DE5AB210>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:18: 2026-02-25 14:21:18,980 [INFO] Refreshing expired Gmail token...
+2026-02-25 14:21:18: Traceback (most recent call last):
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 14:21:18:     sock = connection.create_connection(
+2026-02-25 14:21:18:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 14:21:18:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 14:21:18: ^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 14:21:18:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 14:21:18:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: Traceback (most recent call last):
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 14:21:18:     response = self._make_request(
+2026-02-25 14:21:18:       ^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 14:21:18:     raise new_e
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 14:21:18:     self._validate_conn(conn)
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 14:21:18:     conn.connect()
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 14:21:18:     self.sock = sock = self._new_conn()
+2026-02-25 14:21:18:                        ^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 14:21:18:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 14:21:18: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x0000021000906610>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: Traceback (most recent call last):
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 14:21:18:     resp = conn.urlopen(
+2026-02-25 14:21:18:            ^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 14:21:18:     retries = retries.increment(
+2026-02-25 14:21:18:               ^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 14:21:18:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 14:21:18: ^^
+2026-02-25 14:21:18: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021000906610>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: During handling of the above exception, another exception occurred:
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: Traceback (most recent call last):
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 14:21:18:     response = self.session.request(
+2026-02-25 14:21:18:                ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 14:21:18:     resp = self.send(prep, **send_kwargs)
+2026-02-25 14:21:18:      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 14:21:18:     r = adapter.send(request, **kwargs)
+2026-02-25 14:21:18: ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 14:21:18:     raise ConnectionError(e, request=request)
+2026-02-25 14:21:18: requests.exceptions.ConnectionError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021000906610>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:18: 
+2026-02-25 14:21:18: Traceback (most recent call last):
+2026-02-25 14:21:18:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 14:21:18:     main()
+2026-02-25 14:21:18:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 14:21:18:     service = authenticate_gmail()
+2026-02-25 14:21:18:            ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 14:21:18:     creds.refresh(Request())
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 14:21:18:     ) = reauth.refresh_grant(
+2026-02-25 14:21:18:      ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 14:21:18:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 14:21:18: ^^^^^^^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 14:21:18:     response = request(
+2026-02-25 14:21:18:                ^^^^^^^^
+2026-02-25 14:21:18:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 14:21:18:     raise new_exc from caught_exc
+2026-02-25 14:21:18: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000021000906610>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:30: 2026-02-25 14:21:30,675 [INFO] Refreshing expired Gmail token...
+2026-02-25 14:21:30: Traceback (most recent call last):
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 198, in _new_conn
+2026-02-25 14:21:30:     sock = connection.create_connection(
+2026-02-25 14:21:30:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\connection.py", line 60, in create_connection
+2026-02-25 14:21:30:     for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+2026-02-25 14:21:30: ^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\socket.py", line 962, in getaddrinfo
+2026-02-25 14:21:30:     for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+2026-02-25 14:21:30:                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30: socket.gaierror: [Errno 11001] getaddrinfo failed
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: Traceback (most recent call last):
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 787, in urlopen
+2026-02-25 14:21:30:     response = self._make_request(
+2026-02-25 14:21:30:                ^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 488, in _make_request
+2026-02-25 14:21:30:     raise new_e
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 464, in _make_request
+2026-02-25 14:21:30:     self._validate_conn(conn)
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 1093, in _validate_conn
+2026-02-25 14:21:30:     conn.connect()
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 753, in connect
+2026-02-25 14:21:30:     self.sock = sock = self._new_conn()
+2026-02-25 14:21:30:                        ^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connection.py", line 205, in _new_conn
+2026-02-25 14:21:30:     raise NameResolutionError(self.host, self, e) from e
+2026-02-25 14:21:30: urllib3.exceptions.NameResolutionError: <urllib3.connection.HTTPSConnection object at 0x000001F127961050>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: Traceback (most recent call last):
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 644, in send
+2026-02-25 14:21:30:     resp = conn.urlopen(
+2026-02-25 14:21:30: ^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\connectionpool.py", line 841, in urlopen
+2026-02-25 14:21:30:     retries = retries.increment(
+2026-02-25 14:21:30:               ^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\urllib3\util\retry.py", line 519, in increment
+2026-02-25 14:21:30:     raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+2026-02-25 14:21:30: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30: urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F127961050>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: During handling of the above exception, another exception occurred:
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: Traceback (most recent call last):
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 188, in __call__
+2026-02-25 14:21:30:     response = self.session.request(
+2026-02-25 14:21:30:                ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 589, in request
+2026-02-25 14:21:30:     resp = self.send(prep, **send_kwargs)
+2026-02-25 14:21:30: ^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\sessions.py", line 703, in send
+2026-02-25 14:21:30:     r = adapter.send(request, **kwargs)
+2026-02-25 14:21:30: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\requests\adapters.py", line 677, in send
+2026-02-25 14:21:30:     raise ConnectionError(e, request=request)
+2026-02-25 14:21:30: : HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F127961050>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: The above exception was the direct cause of the following exception:
+2026-02-25 14:21:30: 
+2026-02-25 14:21:30: Traceback (most recent call last):
+2026-02-25 14:21:30:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 464, in <module>
+2026-02-25 14:21:30:     main()
+2026-02-25 14:21:30:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 414, in main
+2026-02-25 14:21:30:     service = authenticate_gmail()
+2026-02-25 14:21:30:    ^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "D:\Heck ---0\AI Empolyee\watchers\gmail_watcher.py", line 99, in authenticate_gmail
+2026-02-25 14:21:30:     creds.refresh(Request())
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\credentials.py", line 412, in refresh
+2026-02-25 14:21:30:     ) = reauth.refresh_grant(
+2026-02-25 14:21:30:         ^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\reauth.py", line 337, in refresh_grant
+2026-02-25 14:21:30:     ) = _client._token_endpoint_request_no_throw(
+2026-02-25 14:21:30:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\oauth2\_client.py", line 192, in _token_endpoint_request_no_throw
+2026-02-25 14:21:30:     response = request(
+2026-02-25 14:21:30:                ^^^^^^^^
+2026-02-25 14:21:30:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\google\auth\transport\requests.py", line 195, in __call__
+2026-02-25 14:21:30:     raise new_exc from caught_exc
+2026-02-25 14:21:30: google.auth.exceptions.TransportError: HTTPSConnectionPool(host='oauth2.googleapis.com', port=443): Max retries exceeded with url: /token (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x000001F127961050>: Failed to resolve 'oauth2.googleapis.com' ([Errno 11001] getaddrinfo failed)"))
+2026-02-25 14:21:42: 2026-02-25 14:21:42,082 [INFO] Refreshing expired Gmail token...
+2026-02-25 14:21:42: 2026-02-25 14:21:42,986 [INFO] Gmail token saved to D:\Heck ---0\AI Empolyee\watchers\gmail_token.json
+2026-02-25 14:21:42: 2026-02-25 14:21:42,986 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 14:21:42: 2026-02-25 14:21:43,001 [INFO] Gmail API authenticated successfully.
+2026-02-25 14:21:43: 2026-02-25 14:21:43,017 [INFO] Loaded 22 previously processed email IDs.
+2026-02-25 14:21:43: 2026-02-25 14:21:43,017 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 14:21:44: 2026-02-25 14:21:44,281 [INFO] Found 10 unread email(s).
+2026-02-25 14:21:44: 2026-02-25 14:21:44,695 [INFO] Processing: [john (Ai_employee) Registration] from "Humayun Rasheed (huras)" <huras@odoo.com>
+2026-02-25 14:21:44: 2026-02-25 14:21:44,695 [INFO] Task card created: EMAIL_john (Ai_employee) Registration_2026-02-25T14-21-44+05.md [priority=normal]
+2026-02-25 14:21:44: 2026-02-25 14:21:44,710 [INFO] Triggering Claude to generate plan for: EMAIL_john (Ai_employee) Registration_2026-02-25T14-21-44+05.md
+2026-02-25 14:21:44: 2026-02-25 14:21:44,726 [WARNING] Claude CLI not found � task card saved, no plan generated.
+2026-02-25 14:22:45: 2026-02-25 14:22:45,089 [INFO] Found 10 unread email(s).
+2026-02-25 14:23:45: 2026-02-25 14:23:45,416 [INFO] Found 10 unread email(s).
+2026-02-25 14:24:45: 2026-02-25 14:24:45,754 [INFO] Found 10 unread email(s).
+2026-02-25 14:25:46: 2026-02-25 14:25:46,091 [INFO] Found 10 unread email(s).
+2026-02-25 14:26:46: 2026-02-25 14:26:46,407 [INFO] Found 10 unread email(s).
+2026-02-25 14:27:46: 2026-02-25 14:27:46,846 [INFO] Found 10 unread email(s).
+2026-02-25 14:28:47: 2026-02-25 14:28:47,214 [INFO] Found 10 unread email(s).
+2026-02-25 14:29:47: 2026-02-25 14:29:47,640 [INFO] Found 10 unread email(s).
+2026-02-25 14:30:48: 2026-02-25 14:30:48,066 [INFO] Found 10 unread email(s).
+2026-02-25 14:31:48: 2026-02-25 14:31:48,431 [INFO] Found 10 unread email(s).
+2026-02-25 14:32:46: 2026-02-25 14:32:46,580 [INFO] file_cache is only supported with oauth2client<4.0.0
+2026-02-25 14:32:46: 2026-02-25 14:32:46,606 [INFO] Gmail API authenticated successfully.
+2026-02-25 14:32:46: 2026-02-25 14:32:46,633 [INFO] Loaded 23 previously processed email IDs.
+2026-02-25 14:32:46: 2026-02-25 14:32:46,633 [INFO] Gmail watcher started. Polling every 60s...
+2026-02-25 14:32:47: 2026-02-25 14:32:47,910 [INFO] Found 10 unread email(s).
+2026-02-25 14:33:48: 2026-02-25 14:33:48,253 [INFO] Found 10 unread email(s).
+2026-02-25 14:34:48: 2026-02-25 14:34:48,643 [INFO] Found 10 unread email(s).
+2026-02-25 14:35:49: 2026-02-25 14:35:48,995 [INFO] Found 10 unread email(s).
+2026-02-25 14:36:49: 2026-02-25 14:36:49,344 [INFO] Found 10 unread email(s).
+2026-02-25 14:37:49: 2026-02-25 14:37:49,768 [INFO] Found 10 unread email(s).
+2026-02-25 14:38:50: 2026-02-25 14:38:50,141 [INFO] Found 10 unread email(s).
+2026-02-25 14:39:50: 2026-02-25 14:39:50,504 [INFO] Found 10 unread email(s).
+2026-02-25 14:40:50: 2026-02-25 14:40:50,894 [INFO] Found 10 unread email(s).
+2026-02-25 14:41:51: 2026-02-25 14:41:51,227 [INFO] Found 10 unread email(s).
+2026-02-25 14:42:51: 2026-02-25 14:42:51,637 [INFO] Found 10 unread email(s).
+2026-02-25 14:43:52: 2026-02-25 14:43:52,027 [INFO] Found 10 unread email(s).
+2026-02-25 14:44:52: 2026-02-25 14:44:52,422 [INFO] Found 10 unread email(s).
+2026-02-25 14:45:52: 2026-02-25 14:45:52,764 [INFO] Found 10 unread email(s).
+2026-02-25 14:46:53: 2026-02-25 14:46:53,125 [INFO] Found 10 unread email(s).
+2026-02-25 14:47:53: 2026-02-25 14:47:53,457 [INFO] Found 10 unread email(s).
+2026-02-25 14:48:53: 2026-02-25 14:48:53,751 [INFO] Found 10 unread email(s).
+2026-02-25 14:49:54: 2026-02-25 14:49:54,061 [INFO] Found 10 unread email(s).
+2026-02-25 14:50:54: 2026-02-25 14:50:54,370 [INFO] Found 10 unread email(s).
+2026-02-25 14:51:54: 2026-02-25 14:51:54,723 [INFO] Found 10 unread email(s).

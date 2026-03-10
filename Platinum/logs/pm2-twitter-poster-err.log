@@ -1,0 +1,561 @@
+2026-02-25 00:00:35: 2026-02-25 00:00:35,345 [INFO] Waiting for Twitter/X login...
+2026-02-25 00:00:35: 2026-02-25 00:00:35,346 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 00:00:35: 2026-02-25 00:00:35,346 [INFO] You have 10 minutes to log in.
+2026-02-25 00:00:47: 2026-02-25 00:00:47,045 [INFO] Twitter/X logged in successfully!
+2026-02-25 00:00:47: 2026-02-25 00:00:47,045 [INFO] Twitter poster started. Polling every 60s...
+2026-02-25 11:08:29: 2026-02-25 11:08:29,836 [INFO] Waiting for Twitter/X login...
+2026-02-25 11:08:29: 2026-02-25 11:08:29,836 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 11:08:29: 2026-02-25 11:08:29,836 [INFO] You have 10 minutes to log in.
+2026-02-25 11:08:36: 2026-02-25 11:08:36,086 [INFO] Twitter/X logged in successfully!
+2026-02-25 11:08:36: 2026-02-25 11:08:36,086 [INFO] Twitter poster started. Polling every 60s...
+2026-02-25 14:21:11: Traceback (most recent call last):
+2026-02-25 14:21:11:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:21:11:     main()
+2026-02-25 14:21:11:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:21:11:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:21:11:                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:21:11:     self._sync(
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:21:11:     return task.result()
+2026-02-25 14:21:11:            ^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:21:11:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:21:11:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:21:11:     return await self._connection.wrap_api_call(
+2026-02-25 14:21:11:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:21:11:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:21:11: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:21:11: Browser logs:
+2026-02-25 14:21:11: 
+2026-02-25 14:21:11: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:11: <launched> pid=12524
+2026-02-25 14:21:11: [pid=12524][out] Opening in existing browser session.
+2026-02-25 14:21:11: Call log:
+2026-02-25 14:21:11:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:11:   - <launched> pid=12524
+2026-02-25 14:21:11:   - [pid=12524][out] Opening in existing browser session.
+2026-02-25 14:21:11:   - [pid=12524] <gracefully close start>
+2026-02-25 14:21:11:   - [pid=12524] <kill>
+2026-02-25 14:21:11:   - [pid=12524] <will force kill>
+2026-02-25 14:21:11:   - [pid=12524] taskkill stderr: ERROR: The process "12524" not found.
+2026-02-25 14:21:11:   - [pid=12524] <process did exit: exitCode=0, signal=null>
+2026-02-25 14:21:11:   - [pid=12524] starting temporary directories cleanup
+2026-02-25 14:21:11:   - [pid=12524] finished temporary directories cleanup
+2026-02-25 14:21:11:   - [pid=12524] <gracefully close end>
+2026-02-25 14:21:11: 
+2026-02-25 14:21:28: Traceback (most recent call last):
+2026-02-25 14:21:28:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:21:28:     main()
+2026-02-25 14:21:28:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:21:28:     
+2026-02-25 14:21:28: context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:21:28:                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:21:29:     self._sync(
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:21:29:     
+2026-02-25 14:21:29: return task.result()
+2026-02-25 14:21:29:            ^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:21:29:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:21:29:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:21:29:     return await self._connection.wrap_api_call(
+2026-02-25 14:21:29:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:21:29:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:21:29: 
+2026-02-25 14:21:29: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:21:29: Browser logs:
+2026-02-25 14:21:29: 
+2026-02-25 14:21:29: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:29: <launched> pid=6048
+2026-02-25 14:21:29: Call log:
+2026-02-25 14:21:29:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:29:   - <launched> pid=6048
+2026-02-25 14:21:29:   - [pid=6048] <gracefully close start>
+2026-02-25 14:21:29:   - [pid=6048] <kill>
+2026-02-25 14:21:29:   - [pid=6048] <will force kill>
+2026-02-25 14:21:29:   - [pid=6048] taskkill stderr: ERROR: The process "6048" not found.
+2026-02-25 14:21:29:   - [pid=6048] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:21:29:   - [pid=6048] starting temporary directories cleanup
+2026-02-25 14:21:29:   - [pid=6048] finished temporary directories cleanup
+2026-02-25 14:21:29:   - [pid=6048] <gracefully close end>
+2026-02-25 14:21:29: 
+2026-02-25 14:21:45: Traceback (most recent call last):
+2026-02-25 14:21:45:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:21:45:     main()
+2026-02-25 14:21:45:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:21:45:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:21:45:                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:21:45:     self._sync(
+2026-02-25 14:21:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:21:45:     return task.result()
+2026-02-25 14:21:45:            ^^^^^^^^^^^^^
+2026-02-25 14:21:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:21:45:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:21:45:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:21:45:     return await self._connection.wrap_api_call(
+2026-02-25 14:21:45:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:21:45:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:21:45: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:21:45: Browser logs:
+2026-02-25 14:21:45: 
+2026-02-25 14:21:45: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:45: <launched> pid=14312
+2026-02-25 14:21:45: Call log:
+2026-02-25 14:21:45:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:21:45:   - <launched> pid=14312
+2026-02-25 14:21:45:   - [pid=14312] <gracefully close start>
+2026-02-25 14:21:45:   - [pid=14312] <kill>
+2026-02-25 14:21:45:   - [pid=14312] <will force kill>
+2026-02-25 14:21:45:   - [pid=14312] taskkill stderr: ERROR: The process "14312" not found.
+2026-02-25 14:21:45:   - [pid=14312] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:21:45:   - [pid=14312] starting temporary directories cleanup
+2026-02-25 14:21:45:   - [pid=14312] finished temporary directories cleanup
+2026-02-25 14:21:45:   - [pid=14312] <gracefully close end>
+2026-02-25 14:21:45: 
+2026-02-25 14:22:06: Traceback (most recent call last):
+2026-02-25 14:22:06:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:22:06:     main()
+2026-02-25 14:22:06:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:22:06:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:22:06: ^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:22:06:     self._sync(
+2026-02-25 14:22:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:22:06:     return task.result()
+2026-02-25 14:22:06:            ^^^^^^^^^^^^^
+2026-02-25 14:22:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:22:06:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:22:06:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:22:06:     return await self._connection.wrap_api_call(
+2026-02-25 14:22:06:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:06:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:22:06:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:22:06: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:22:06: Browser logs:
+2026-02-25 14:22:06: 
+2026-02-25 14:22:06: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:06: <launched> pid=6708
+2026-02-25 14:22:06: Call log:
+2026-02-25 14:22:06:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:06:   - <launched> pid=6708
+2026-02-25 14:22:06:   - [pid=6708] <gracefully close start>
+2026-02-25 14:22:06:   - [pid=6708] <kill>
+2026-02-25 14:22:06:   - [pid=6708] <will force kill>
+2026-02-25 14:22:06:   - [pid=6708] taskkill stderr: ERROR: The process "6708" not found.
+2026-02-25 14:22:06:   - [pid=6708] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:22:06:   - [pid=6708] starting temporary directories cleanup
+2026-02-25 14:22:06:   - [pid=6708] finished temporary directories cleanup
+2026-02-25 14:22:06:   - [pid=6708] <gracefully close end>
+2026-02-25 14:22:06: 
+2026-02-25 14:22:23: Traceback (most recent call last):
+2026-02-25 14:22:23:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:22:23:     main()
+2026-02-25 14:22:23:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:22:23:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:22:23:                        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:23:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:22:23:     self._sync(
+2026-02-25 14:22:23:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:22:23:     return task.result()
+2026-02-25 14:22:23:            ^^^^^^^^^^^^^
+2026-02-25 14:22:23:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:22:23:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:22:23:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:23:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:22:23:     return await self._connection.wrap_api_call(
+2026-02-25 14:22:23:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:23:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:22:23:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:22:23: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:22:23: Browser logs:
+2026-02-25 14:22:23: 
+2026-02-25 14:22:23: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:23: <launched> pid=16244
+2026-02-25 14:22:23: Call log:
+2026-02-25 14:22:23:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:23:   - <launched> pid=16244
+2026-02-25 14:22:23:   - [pid=16244] <gracefully close start>
+2026-02-25 14:22:23:   - [pid=16244] <kill>
+2026-02-25 14:22:23:   - [pid=16244] <will force kill>
+2026-02-25 14:22:23:   - [pid=16244] taskkill stderr: ERROR: The process "16244" not found.
+2026-02-25 14:22:23:   - [pid=16244] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:22:23:   - [pid=16244] starting temporary directories cleanup
+2026-02-25 14:22:23:   - [pid=16244] finished temporary directories cleanup
+2026-02-25 14:22:23:   - [pid=16244] <gracefully close end>
+2026-02-25 14:22:23: 
+2026-02-25 14:22:39: Traceback (most recent call last):
+2026-02-25 14:22:39:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:22:39:     main()
+2026-02-25 14:22:39:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:22:39:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:22:39: ^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:39:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:22:39:     self._sync(
+2026-02-25 14:22:39:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:22:39:     return task.result()
+2026-02-25 14:22:39:            ^^^^^^^^^^^^^
+2026-02-25 14:22:39:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:22:39:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:22:39:         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:39:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:22:39:     return await self._connection.wrap_api_call(
+2026-02-25 14:22:39:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:39:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:22:39:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:22:39: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:22:39: Browser logs:
+2026-02-25 14:22:39: 
+2026-02-25 14:22:39: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:39: <launched> pid=16820
+2026-02-25 14:22:39: Call log:
+2026-02-25 14:22:39:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:39:   - <launched> pid=16820
+2026-02-25 14:22:39:   - [pid=16820] <gracefully close start>
+2026-02-25 14:22:39:   - [pid=16820] <kill>
+2026-02-25 14:22:39:   - [pid=16820] <will force kill>
+2026-02-25 14:22:39:   - [pid=16820] taskkill stderr: ERROR: The process "16820" not found.
+2026-02-25 14:22:39:   - [pid=16820] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:22:39:   - [pid=16820] starting temporary directories cleanup
+2026-02-25 14:22:39:   - [pid=16820] finished temporary directories cleanup
+2026-02-25 14:22:39:   - [pid=16820] <gracefully close end>
+2026-02-25 14:22:39: 
+2026-02-25 14:22:56: Traceback (most recent call last):
+2026-02-25 14:22:56:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:22:56:     main()
+2026-02-25 14:22:56:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:22:56:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:22:56:                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:22:56:     self._sync(
+2026-02-25 14:22:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:22:56:     return task.result()
+2026-02-25 14:22:56:            ^^^^^^^^^^^^^
+2026-02-25 14:22:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:22:56:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:22:56: ^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:22:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:22:56:     return await self._connection.wrap_api_call(
+2026-02-25 14:22:56: ^^^^
+2026-02-25 14:22:56:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:22:56:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:22:56: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:22:56: Browser logs:
+2026-02-25 14:22:56: 
+2026-02-25 14:22:56: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:56: <launched> pid=11016
+2026-02-25 14:22:56: Call log:
+2026-02-25 14:22:56:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:22:56:   - <launched> pid=11016
+2026-02-25 14:22:56:   - [pid=11016] <gracefully close start>
+2026-02-25 14:22:56:   - [pid=11016] <kill>
+2026-02-25 14:22:56:   - [pid=11016] <will force kill>
+2026-02-25 14:22:56:   - [pid=11016] taskkill stderr: ERROR: The process "11016" not found.
+2026-02-25 14:22:56:   - [pid=11016] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:22:56:   - [pid=11016] starting temporary directories cleanup
+2026-02-25 14:22:56:   - [pid=11016] finished temporary directories cleanup
+2026-02-25 14:22:56:   - [pid=11016] <gracefully close end>
+2026-02-25 14:22:56: 
+2026-02-25 14:23:12: Traceback (most recent call last):
+2026-02-25 14:23:12:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:23:12:     main()
+2026-02-25 14:23:12:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:23:12:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:23:12: ^^^^^^^^^^
+2026-02-25 14:23:12:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:23:12:     self._sync(
+2026-02-25 14:23:12:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:23:12:     return task.result()
+2026-02-25 14:23:12:            ^^^^^^^^^^^^^
+2026-02-25 14:23:12:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:23:12:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:23:12:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:12:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:23:12:     return await self._connection.wrap_api_call(
+2026-02-25 14:23:12:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:12:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:23:12:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:23:12: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:23:12: Browser logs:
+2026-02-25 14:23:12: 
+2026-02-25 14:23:12: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:12: <launched> pid=11348
+2026-02-25 14:23:12: Call log:
+2026-02-25 14:23:12:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:12:   - <launched> pid=11348
+2026-02-25 14:23:12:   - [pid=11348] <gracefully close start>
+2026-02-25 14:23:12:   - [pid=11348] <kill>
+2026-02-25 14:23:12:   - [pid=11348] <will force kill>
+2026-02-25 14:23:12:   - [pid=11348] taskkill stderr: ERROR: The process "11348" not found.
+2026-02-25 14:23:12:   - [pid=11348] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:23:12:   - [pid=11348] starting temporary directories cleanup
+2026-02-25 14:23:12:   - [pid=11348] finished temporary directories cleanup
+2026-02-25 14:23:12:   - [pid=11348] <gracefully close end>
+2026-02-25 14:23:12: 
+2026-02-25 14:23:28: Traceback (most recent call last):
+2026-02-25 14:23:28:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:23:28:     main()
+2026-02-25 14:23:28:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:23:28:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:23:28:                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:23:28:     self._sync(
+2026-02-25 14:23:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:23:28:     return task.result()
+2026-02-25 14:23:28:            ^^^^^^^^^^^^^
+2026-02-25 14:23:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:23:28:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:23:28: ^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:23:28:     return await self._connection.wrap_api_call(
+2026-02-25 14:23:28: ^^^^^^^^^^^^
+2026-02-25 14:23:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:23:29: raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:23:29: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:23:29: Browser logs:
+2026-02-25 14:23:29: 
+2026-02-25 14:23:29: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:29: <launched> pid=10408
+2026-02-25 14:23:29: Call log:
+2026-02-25 14:23:29:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:29:   - <launched> pid=10408
+2026-02-25 14:23:29:   - [pid=10408] <gracefully close start>
+2026-02-25 14:23:29:   - [pid=10408] <kill>
+2026-02-25 14:23:29:   - [pid=10408] <will force kill>
+2026-02-25 14:23:29:   - [pid=10408] taskkill stderr: ERROR: The process "10408" not found.
+2026-02-25 14:23:29:   - [pid=10408] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:23:29:   - [pid=10408] starting temporary directories cleanup
+2026-02-25 14:23:29:   - [pid=10408] finished temporary directories cleanup
+2026-02-25 14:23:29:   - [pid=10408] <gracefully close end>
+2026-02-25 14:23:29: 
+2026-02-25 14:23:45: Traceback (most recent call last):
+2026-02-25 14:23:45:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:23:45:     main()
+2026-02-25 14:23:45:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:23:45:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:23:45:                               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:23:45:     self._sync(
+2026-02-25 14:23:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:23:45:     return task.result()
+2026-02-25 14:23:45:            ^^^^^^^^^^^^^
+2026-02-25 14:23:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:23:45:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:23:45:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:23:45:     return await self._connection.wrap_api_call(
+2026-02-25 14:23:45: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:23:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:23:45:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:23:45: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:23:45: Browser logs:
+2026-02-25 14:23:45: 
+2026-02-25 14:23:45: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:45: <launched> pid=2416
+2026-02-25 14:23:45: Call log:
+2026-02-25 14:23:45:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:23:45:   - <launched> pid=2416
+2026-02-25 14:23:45:   - [pid=2416] <gracefully close start>
+2026-02-25 14:23:45:   - [pid=2416] <kill>
+2026-02-25 14:23:45:   - [pid=2416] <will force kill>
+2026-02-25 14:23:45:   - [pid=2416] taskkill stderr: ERROR: The process "2416" not found.
+2026-02-25 14:23:45:   - [pid=2416] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:23:45:   - [pid=2416] starting temporary directories cleanup
+2026-02-25 14:23:45:   - [pid=2416] finished temporary directories cleanup
+2026-02-25 14:23:45:   - [pid=2416] <gracefully close end>
+2026-02-25 14:23:45: 
+2026-02-25 14:24:01: Traceback (most recent call last):
+2026-02-25 14:24:01:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:24:01:     main()
+2026-02-25 14:24:01:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:24:01:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:24:01:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:01:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:24:01:     self._sync(
+2026-02-25 14:24:01:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:24:01:     return task.result()
+2026-02-25 14:24:01:            ^^^^^^^^^^^^^
+2026-02-25 14:24:01:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:24:01:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:24:01:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:01:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:24:01:     return await self._connection.wrap_api_call(
+2026-02-25 14:24:01:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:01:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:24:01:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:24:01: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:24:01: Browser logs:
+2026-02-25 14:24:01: 
+2026-02-25 14:24:01: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:01: <launched> pid=15220
+2026-02-25 14:24:01: Call log:
+2026-02-25 14:24:01:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:01:   - <launched> pid=15220
+2026-02-25 14:24:01:   - [pid=15220] <gracefully close start>
+2026-02-25 14:24:01:   - [pid=15220] <kill>
+2026-02-25 14:24:01:   - [pid=15220] <will force kill>
+2026-02-25 14:24:01:   - [pid=15220] taskkill stderr: ERROR: The process "15220" not found.
+2026-02-25 14:24:01:   - [pid=15220] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:24:01:   - [pid=15220] starting temporary directories cleanup
+2026-02-25 14:24:01:   - [pid=15220] finished temporary directories cleanup
+2026-02-25 14:24:01:   - [pid=15220] <gracefully close end>
+2026-02-25 14:24:01: 
+2026-02-25 14:24:17: Traceback (most recent call last):
+2026-02-25 14:24:17:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:24:17:     main()
+2026-02-25 14:24:17:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:24:17:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:24:17:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:17:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:24:17:     self._sync(
+2026-02-25 14:24:17:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:24:17:     return task.result()
+2026-02-25 14:24:17:            ^^^^^^^^^^^^^
+2026-02-25 14:24:17:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:24:17:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:24:17:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:17:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:24:17:     return await self._connection.wrap_api_call(
+2026-02-25 14:24:17:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:17:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:24:17:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:24:17: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:24:17: Browser logs:
+2026-02-25 14:24:17: 
+2026-02-25 14:24:17: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:17: <launched> pid=16688
+2026-02-25 14:24:17: Call log:
+2026-02-25 14:24:17:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:17:   - <launched> pid=16688
+2026-02-25 14:24:17:   - [pid=16688] <gracefully close start>
+2026-02-25 14:24:17:   - [pid=16688] <kill>
+2026-02-25 14:24:17:   - [pid=16688] <will force kill>
+2026-02-25 14:24:17:   - [pid=16688] taskkill stderr: ERROR: The process "16688" not found.
+2026-02-25 14:24:17:   - [pid=16688] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:24:17:   - [pid=16688] starting temporary directories cleanup
+2026-02-25 14:24:17:   - [pid=16688] finished temporary directories cleanup
+2026-02-25 14:24:17:   - [pid=16688] <gracefully close end>
+2026-02-25 14:24:17: 
+2026-02-25 14:24:34: Traceback (most recent call last):
+2026-02-25 14:24:34:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:24:34:     main()
+2026-02-25 14:24:34:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:24:34:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:24:34:               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:34:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:24:34:     self._sync(
+2026-02-25 14:24:34:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:24:34:     return task.result()
+2026-02-25 14:24:34:            ^^^^^^^^^^^^^
+2026-02-25 14:24:34:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:24:34:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:24:34:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:34:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:24:34:     return await self._connection.wrap_api_call(
+2026-02-25 14:24:34:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:34:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:24:34:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:24:34: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:24:34: Browser logs:
+2026-02-25 14:24:34: 
+2026-02-25 14:24:34: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:34: <launched> pid=6156
+2026-02-25 14:24:34: Call log:
+2026-02-25 14:24:34:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:34:   - <launched> pid=6156
+2026-02-25 14:24:34:   - [pid=6156] <gracefully close start>
+2026-02-25 14:24:34:   - [pid=6156] <kill>
+2026-02-25 14:24:34:   - [pid=6156] <will force kill>
+2026-02-25 14:24:34:   - [pid=6156] taskkill stderr: ERROR: The process "6156" not found.
+2026-02-25 14:24:34:   - [pid=6156] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:24:34:   - [pid=6156] starting temporary directories cleanup
+2026-02-25 14:24:34:   - [pid=6156] finished temporary directories cleanup
+2026-02-25 14:24:34:   - [pid=6156] <gracefully close end>
+2026-02-25 14:24:34: 
+2026-02-25 14:24:50: Traceback (most recent call last):
+2026-02-25 14:24:50:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:24:50:     main()
+2026-02-25 14:24:50:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:24:50:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:24:50:             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:50:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:24:50:     self._sync(
+2026-02-25 14:24:50:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:24:50:     return task.result()
+2026-02-25 14:24:50:            ^^^^^^^^^^^^^
+2026-02-25 14:24:50:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:24:50:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:24:50:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:50:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:24:50:     return await self._connection.wrap_api_call(
+2026-02-25 14:24:50:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:24:50:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:24:50:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:24:50: 
+2026-02-25 14:24:50: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:24:50: Browser logs:
+2026-02-25 14:24:50: 
+2026-02-25 14:24:50: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:50: <launched> pid=4488
+2026-02-25 14:24:50: Call log:
+2026-02-25 14:24:50:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:24:50:   - <launched> pid=4488
+2026-02-25 14:24:50:   - [pid=4488] <gracefully close start>
+2026-02-25 14:24:50:   - [pid=4488] <kill>
+2026-02-25 14:24:50:   - [pid=4488] <will force kill>
+2026-02-25 14:24:50:   - [pid=4488] taskkill stderr: ERROR: The process "4488" not found.
+2026-02-25 14:24:50:   - [pid=4488] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:24:50:   - [pid=4488] starting temporary directories cleanup
+2026-02-25 14:24:50:   - [pid=4488] finished temporary directories cleanup
+2026-02-25 14:24:50:   - [pid=4488] <gracefully close end>
+2026-02-25 14:24:50: 
+2026-02-25 14:25:07: Traceback (most recent call last):
+2026-02-25 14:25:07:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 451, in <module>
+2026-02-25 14:25:07:     main()
+2026-02-25 14:25:07:   File "D:\Heck ---0\AI Empolyee\watchers\twitter_poster.py", line 384, in main
+2026-02-25 14:25:07:     context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:25:07:           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:25:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:25:07:     self._sync(
+2026-02-25 14:25:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:25:07:     return task.result()
+2026-02-25 14:25:07:            ^^^^^^^^^^^^^
+2026-02-25 14:25:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:25:07:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:25:07:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:25:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:25:07:     return await self._connection.wrap_api_call(
+2026-02-25 14:25:07:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:25:07:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:25:07:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:25:07: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:25:07: Browser logs:
+2026-02-25 14:25:07: 
+2026-02-25 14:25:07: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:25:07: <launched> pid=5268
+2026-02-25 14:25:07: Call log:
+2026-02-25 14:25:07:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.twitter_session --remote-debugging-pipe about:blank
+2026-02-25 14:25:07:   - <launched> pid=5268
+2026-02-25 14:25:07:   - [pid=5268] <gracefully close start>
+2026-02-25 14:25:07:   - [pid=5268] <kill>
+2026-02-25 14:25:07:   - [pid=5268] <will force kill>
+2026-02-25 14:25:07:   - [pid=5268] taskkill stderr: ERROR: The process "5268" not found.
+2026-02-25 14:25:07:   - [pid=5268] <process did exit: exitCode=21, signal=null>
+2026-02-25 14:25:07:   - [pid=5268] starting temporary directories cleanup
+2026-02-25 14:25:07:   - [pid=5268] finished temporary directories cleanup
+2026-02-25 14:25:07:   - [pid=5268] <gracefully close end>
+2026-02-25 14:25:07: 
+2026-02-25 14:25:25: 2026-02-25 14:25:25,807 [INFO] Waiting for Twitter/X login...
+2026-02-25 14:25:25: 2026-02-25 14:25:25,807 [INFO] If this is your first run, log in manually in the browser window.
+2026-02-25 14:25:25: 2026-02-25 14:25:25,807 [INFO] You have 10 minutes to log in.
+2026-02-25 14:25:36: 2026-02-25 14:25:36,163 [INFO] Twitter/X logged in successfully!
+2026-02-25 14:25:36: 2026-02-25 14:25:36,163 [INFO] Twitter poster started. Polling every 60s...

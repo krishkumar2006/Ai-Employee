@@ -1,0 +1,158 @@
+2026-02-25 00:00:13: 2026-02-25 00:00:13,305 [INFO] Waiting for Facebook login...
+2026-02-25 00:00:13: 2026-02-25 00:00:13,305 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 00:00:13: 2026-02-25 00:00:13,534 [INFO] Facebook logged in!
+2026-02-25 00:00:22: 2026-02-25 00:00:22,677 [INFO] Waiting for Instagram login...
+2026-02-25 00:00:22: 2026-02-25 00:00:22,678 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 00:00:22: 2026-02-25 00:00:22,858 [INFO] Instagram logged in!
+2026-02-25 00:00:22: 2026-02-25 00:00:22,859 [INFO] Both platforms ready. Polling every 60s...
+2026-02-25 11:08:28: Traceback (most recent call last):
+2026-02-25 11:08:28:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+2026-02-25 11:08:28:     main()
+2026-02-25 11:08:28:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 614, in main
+2026-02-25 11:08:28:     fb_page.goto(FB_URL, timeout=60_000, wait_until="domcontentloaded")
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+2026-02-25 11:08:28:     self._sync(
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 11:08:28:     return task.result()
+2026-02-25 11:08:28:     ^^^^^^^^^^^^^
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+2026-02-25 11:08:28:     return await self._main_frame.goto(**locals_to_params(locals()))
+2026-02-25 11:08:28:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+2026-02-25 11:08:28:     await self._channel.send(
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+2026-02-25 11:08:28:     return await self._connection.wrap_api_call(
+2026-02-25 11:08:28:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:28:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 11:08:28:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 11:08:28: playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.facebook.com/
+2026-02-25 11:08:28: Call log:
+2026-02-25 11:08:28:   - navigating to "https://www.facebook.com/", waiting until "domcontentloaded"
+2026-02-25 11:08:28: 
+2026-02-25 11:08:45: Traceback (most recent call last):
+2026-02-25 11:08:45:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+2026-02-25 11:08:45:     main()
+2026-02-25 11:08:45:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 614, in main
+2026-02-25 11:08:45:     fb_page.goto(FB_URL, timeout=60_000, wait_until="domcontentloaded")
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+2026-02-25 11:08:45:     self._sync(
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 11:08:45:     return task.result()
+2026-02-25 11:08:45:            ^^^^^^^^^^^^^
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+2026-02-25 11:08:45:     return await self._main_frame.goto(**locals_to_params(locals()))
+2026-02-25 11:08:45:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+2026-02-25 11:08:45:     await self._channel.send(
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+2026-02-25 11:08:45:     return await self._connection.wrap_api_call(
+2026-02-25 11:08:45:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:08:45:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 11:08:45:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 11:08:45: playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.facebook.com/
+2026-02-25 11:08:45: Call log:
+2026-02-25 11:08:45:   - navigating to "https://www.facebook.com/", waiting until "domcontentloaded"
+2026-02-25 11:08:45: 
+2026-02-25 11:09:13: 2026-02-25 11:09:13,398 [INFO] Waiting for Facebook login...
+2026-02-25 11:09:13: 2026-02-25 11:09:13,400 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:13: 2026-02-25 11:09:13,601 [INFO] Facebook logged in!
+2026-02-25 11:09:16: Traceback (most recent call last):
+2026-02-25 11:09:16:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+2026-02-25 11:09:16:     main()
+2026-02-25 11:09:16:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 626, in main
+2026-02-25 11:09:16:     ig_page.goto(IG_URL, timeout=60_000, wait_until="domcontentloaded")
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+2026-02-25 11:09:16:     self._sync(
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 11:09:16:     return task.result()
+2026-02-25 11:09:16:            ^^^^^^^^^^^^^
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+2026-02-25 11:09:16:     return await self._main_frame.goto(**locals_to_params(locals()))
+2026-02-25 11:09:16: ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+2026-02-25 11:09:16:     await self._channel.send(
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+2026-02-25 11:09:16:     return await self._connection.wrap_api_call(
+2026-02-25 11:09:16: ^^^^^^^^^^^^^^^^^^
+2026-02-25 11:09:16:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 11:09:16:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 11:09:16: playwright._impl._errors.TargetClosedError: Page.goto: Target page, context or browser has been closed
+2026-02-25 11:09:16: Call log:
+2026-02-25 11:09:16:   - navigating to "https://www.instagram.com/", waiting until "domcontentloaded"
+2026-02-25 11:09:16: 
+2026-02-25 11:09:36: 2026-02-25 11:09:36,367 [INFO] Waiting for Facebook login...
+2026-02-25 11:09:36: 2026-02-25 11:09:36,367 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:36: 2026-02-25 11:09:36,485 [INFO] Facebook logged in!
+2026-02-25 11:09:40: 2026-02-25 11:09:40,986 [INFO] Waiting for Instagram login...
+2026-02-25 11:09:40: 2026-02-25 11:09:40,986 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 11:09:41: 2026-02-25 11:09:41,088 [INFO] Instagram logged in!
+2026-02-25 11:09:41: 2026-02-25 11:09:41,089 [INFO] Both platforms ready. Polling every 60s...
+2026-02-25 14:21:11: Traceback (most recent call last):
+2026-02-25 14:21:11:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+2026-02-25 14:21:11:     main()
+2026-02-25 14:21:11:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 606, in main
+2026-02-25 14:21:11:     fb_context: BrowserContext = pw.chromium.launch_persistent_context(
+2026-02-25 14:21:11:                         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 14861, in launch_persistent_context
+2026-02-25 14:21:11:     self._sync(
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:21:11:     return task.result()
+2026-02-25 14:21:11:            ^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_browser_type.py", line 164, in launch_persistent_context
+2026-02-25 14:21:11:     result = await self._channel.send_return_as_dict(
+2026-02-25 14:21:11:              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 83, in send_return_as_dict
+2026-02-25 14:21:11:     return await self._connection.wrap_api_call(
+2026-02-25 14:21:11:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:11:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:21:11:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:21:11: playwright._impl._errors.TargetClosedError: BrowserType.launch_persistent_context: Target page, context or browser has been closed
+2026-02-25 14:21:11: Browser logs:
+2026-02-25 14:21:11: 
+2026-02-25 14:21:11: <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+2026-02-25 14:21:11: <launched> pid=12540
+2026-02-25 14:21:11: [pid=12540][out] Opening in existing browser session.
+2026-02-25 14:21:11: Call log:
+2026-02-25 14:21:11:   - <launching> C:\Users\HP\AppData\Local\ms-playwright\chromium-1208\chrome-win64\chrome.exe --disable-field-trial-config --disable-background-networking --disable-background-timer-throttling --disable-backgrounding-occluded-windows --disable-back-forward-cache --disable-breakpad --disable-client-side-phishing-detection --disable-component-extensions-with-background-pages --disable-component-update --no-default-browser-check --disable-default-apps --disable-dev-shm-usage --disable-extensions --disable-features=AvoidUnnecessaryBeforeUnloadCheckSync,BoundaryEventDispatchTracksNodeRemoval,DestroyProfileOnBrowserClose,DialMediaRouteProvider,GlobalMediaControls,HttpsUpgrades,LensOverlay,MediaRouter,PaintHolding,ThirdPartyStoragePartitioning,Translate,AutoDeElevate,RenderDocument,OptimizationHints --enable-features=CDPScreenshotNewSurface --allow-pre-commit-input --disable-hang-monitor --disable-ipc-flooding-protection --disable-popup-blocking --disable-prompt-on-repost --disable-renderer-backgrounding --force-color-profile=srgb --metrics-recording-only --no-first-run --password-store=basic --use-mock-keychain --no-service-autorun --export-tagged-pdf --disable-search-engine-choice-screen --unsafely-disable-devtools-self-xss-warnings --edge-skip-compat-layer-relaunch --enable-automation --disable-infobars --disable-search-engine-choice-screen --disable-sync --enable-unsafe-swiftshader --no-sandbox --disable-blink-features=AutomationControlled --user-data-dir=D:\Heck ---0\AI Empolyee\vault\.meta_session\facebook --remote-debugging-pipe about:blank
+2026-02-25 14:21:11:   - <launched> pid=12540
+2026-02-25 14:21:11:   - [pid=12540][out] Opening in existing browser session.
+2026-02-25 14:21:11:   - [pid=12540] <gracefully close start>
+2026-02-25 14:21:11:   - [pid=12540] <kill>
+2026-02-25 14:21:11:   - [pid=12540] <will force kill>
+2026-02-25 14:21:11:   - [pid=12540] taskkill stderr: ERROR: The process "12540" not found.
+2026-02-25 14:21:11:   - [pid=12540] <process did exit: exitCode=0, signal=null>
+2026-02-25 14:21:11:   - [pid=12540] starting temporary directories cleanup
+2026-02-25 14:21:11:   - [pid=12540] finished temporary directories cleanup
+2026-02-25 14:21:11:   - [pid=12540] <gracefully close end>
+2026-02-25 14:21:11: 
+2026-02-25 14:21:29: Traceback (most recent call last):
+2026-02-25 14:21:29:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 688, in <module>
+2026-02-25 14:21:29:     main()
+2026-02-25 14:21:29:   File "D:\Heck ---0\AI Empolyee\watchers\meta_poster.py", line 614, in main
+2026-02-25 14:21:29:     fb_page.goto(FB_URL, timeout=60_000, wait_until="domcontentloaded")
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\sync_api\_generated.py", line 9054, in goto
+2026-02-25 14:21:29:     self._sync(
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_sync_base.py", line 115, in _sync
+2026-02-25 14:21:29:     return task.result()
+2026-02-25 14:21:29:            ^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_page.py", line 552, in goto
+2026-02-25 14:21:29:     return await self._main_frame.goto(**locals_to_params(locals()))
+2026-02-25 14:21:29:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_frame.py", line 153, in goto
+2026-02-25 14:21:29:     await self._channel.send(
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 69, in send
+2026-02-25 14:21:29:     return await self._connection.wrap_api_call(
+2026-02-25 14:21:29:            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-02-25 14:21:29:   File "C:\Users\HP\AppData\Local\Programs\Python\Python311\Lib\site-packages\playwright\_impl\_connection.py", line 559, in wrap_api_call
+2026-02-25 14:21:29:     raise rewrite_error(error, f"{parsed_st['apiName']}: {error}") from None
+2026-02-25 14:21:29: playwright._impl._errors.Error: Page.goto: net::ERR_INTERNET_DISCONNECTED at https://www.facebook.com/
+2026-02-25 14:21:29: Call log:
+2026-02-25 14:21:29:   - navigating to "https://www.facebook.com/", waiting until "domcontentloaded"
+2026-02-25 14:21:29: 
+2026-02-25 14:21:51: 2026-02-25 14:21:51,963 [INFO] Waiting for Facebook login...
+2026-02-25 14:21:51: 2026-02-25 14:21:51,963 [INFO] Log into facebook.com in the browser window. You have 10 minutes.
+2026-02-25 14:21:52: 2026-02-25 14:21:52,072 [INFO] Facebook logged in!
+2026-02-25 14:21:58: 2026-02-25 14:21:58,494 [INFO] Waiting for Instagram login...
+2026-02-25 14:21:58: 2026-02-25 14:21:58,494 [INFO] Log into instagram.com in the browser window. You have 10 minutes.
+2026-02-25 14:21:58: 2026-02-25 14:21:58,616 [INFO] Instagram logged in!
+2026-02-25 14:21:58: 2026-02-25 14:21:58,616 [INFO] Both platforms ready. Polling every 60s...

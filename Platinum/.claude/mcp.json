@@ -1,0 +1,22 @@
+{
+  "mcpServers": {
+    "ai-employee-email": {
+      "command": "node",
+      "args": ["D:\\Heck ---0\\AI Empolyee\\mcp\\email_mcp.js"],
+      "env": {
+        "GMAIL_ADDRESS": "YOUR_GMAIL@gmail.com",
+        "GMAIL_APP_PASSWORD": "xxxx xxxx xxxx xxxx"
+      }
+    },
+    "ai-employee-odoo": {
+      "command": "python",
+      "args": ["D:\\Heck ---0\\AI Empolyee\\mcp\\odoo_mcp.py"],
+      "env": {
+        "ODOO_URL": "https://ai-employee6.odoo.com",
+        "ODOO_DB": "ai-employee6",
+        "ODOO_USER": "wonj30236@gmail.com",
+        "ODOO_PASSWORD": "dd341ea7e48d100ce344e58c63fb2679aecd3e4b"
+      }
+    }
+  }
+}

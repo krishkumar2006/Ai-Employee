@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-03-02T18:49:33.013620+00:00",
+  "component": "cloud_agent",
+  "event": "draft_created",
+  "domain": "email",
+  "summary": "Email reply drafted for Sarah Chen \u2014 awaiting local approval",
+  "data": {
+    "approval_file": "DRAFT_EMAIL_20260302T234931_inquiry_about_ai_automation_services_for.json",
+    "to": "sarah.chen@example-client.com"
+  }
+}

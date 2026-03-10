@@ -1,0 +1,118 @@
+# =============================================================================
+# SECRETS — never committed, never synced
+# =============================================================================
+.claude/settings.local.json
+.env
+.env.local
+# .env.cloud is safe to commit (contains no secrets — passwords intentionally omitted)
+vault/Secrets/
+
+# Docker secrets
+docker/.env.docker
+docker/nginx/certbot/
+*.key
+*.pem
+*.p12
+*.pfx
+*_secret*
+*_credentials*
+credentials.json
+token.json
+*token*.json
+service_account.json
+watchers/credentials.json
+watchers/gmail_token.json
+
+# Watcher state (machine-local, not portable)
+watchers/.gmail_processed_ids
+watchers/.whatsapp_session/
+watchers/.whatsapp_last_check.json
+watchers/.meta_state.json
+watchers/.linkedin_session/
+watchers/.linkedin_state.json
+
+# =============================================================================
+# VAULT — runtime folders excluded from sync (large / transient / machine-local)
+# =============================================================================
+vault/Logs/
+vault/Queue/
+vault/In_Progress/
+
+# Approval decisions are LOCAL — never pushed to cloud
+vault/Approved/
+vault/Rejected/
+
+# Update archive is transient
+vault/Updates/.archive/
+
+# Rate limiter state (machine-local counters)
+vault/Logs/.rate_limits.json
+vault/Logs/.rate_limits.tmp
+
+# Secrets folder — NEVER synced
+vault/Secrets/
+
+# Banking domain files — NEVER synced regardless of parent folder
+vault/*/banking/
+vault/Needs_Action/banking/
+vault/Plans/banking/
+
+# These vault subfolders ARE synced (not listed here):
+#   vault/Needs_Action/<domain>/   vault/Plans/<domain>/
+#   vault/Pending_Approval/<domain>/
+#   vault/Done/<domain>/           vault/Updates/*.json
+#   vault/Dashboard.md
+
+# =============================================================================
+# Node
+# =============================================================================
+node_modules/
+mcp/node_modules/
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+
+# =============================================================================
+# OS / Editor
+# =============================================================================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# =============================================================================
+# Session / credential files — NEVER synced
+# =============================================================================
+*.session
+*.session.json
+.session/
+sessions/
+*_session/
+*_session.json
+
+# WhatsApp / Playwright browser sessions
+watchers/.whatsapp_session/
+watchers/.linkedin_session/
+watchers/.meta_session/
+watchers/.twitter_session/
+
+# OAuth tokens and credentials
+*_token.json
+oauth_token*
+refresh_token*
+
+# =============================================================================
+# Sync / lock files
+# =============================================================================
+*.lock
+*.tmp
+sync_error.json

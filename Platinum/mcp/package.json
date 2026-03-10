@@ -1,0 +1,14 @@
+{
+  "name": "ai-employee-email-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for sending emails via Gmail SMTP — AI Employee Silver Tier",
+  "type": "module",
+  "main": "email_mcp.js",
+  "scripts": {
+    "start": "node email_mcp.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "nodemailer": "^6.9.0"
+  }
+}

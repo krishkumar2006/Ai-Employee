@@ -1,0 +1,51 @@
+# docker-compose.local.yaml — Local Windows Testing Only
+# Sirf Odoo + PostgreSQL — No Nginx, No SSL
+# Access: http://localhost:8069
+
+name: ai-employee-odoo-local
+
+services:
+
+  postgres:
+    image: postgres:15
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: odoo
+      POSTGRES_PASSWORD: odoo123
+      PGDATA: /var/lib/postgresql/data/pgdata
+    volumes:
+      - postgres_local:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U odoo"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 30s
+
+  odoo:
+    image: odoo:17
+    restart: unless-stopped
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment:
+      HOST: postgres
+      PORT: "5432"
+      USER: odoo
+      PASSWORD: odoo123
+      DB: ai-employee
+    command: odoo --db-filter=ai-employee
+    volumes:
+      - odoo_local:/var/lib/odoo
+    ports:
+      - "8069:8069"    # directly accessible at localhost:8069
+    healthcheck:
+      test: ["CMD-SHELL", "curl -sf http://localhost:8069/web/health || exit 1"]
+      interval: 30s
+      timeout: 15s
+      retries: 3
+      start_period: 90s
+
+volumes:
+  postgres_local:
+  odoo_local:

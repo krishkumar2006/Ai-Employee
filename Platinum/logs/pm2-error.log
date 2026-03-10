@@ -1,0 +1,39 @@
+2026-02-17 01:28:32: 2026-02-17 01:28:32,402 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:28:32: 2026-02-17 01:28:32,415 [INFO]   PID 10648 \u2192 log: filesystem_watcher.log
+2026-02-17 01:28:32: 2026-02-17 01:28:32,416 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:28:32: 2026-02-17 01:28:32,429 [INFO]   PID 11296 \u2192 log: gmail_watcher.log
+2026-02-17 01:28:32: 2026-02-17 01:28:32,429 [INFO] Watcher disabled, skipping: whatsapp_watcher
+2026-02-17 01:28:32: 2026-02-17 01:28:32,430 [INFO] Watcher disabled, skipping: linkedin_poster
+2026-02-17 01:28:32: 2026-02-17 01:28:32,431 [INFO] Scheduled tasks registered:
+2026-02-17 01:28:32: 2026-02-17 01:28:32,431 [INFO]   \u2192 Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-17 01:28:32: 2026-02-17 01:28:32,432 [INFO]   \u2192 Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-17 01:28:32: 2026-02-17 01:28:32,432 [INFO]   \u2192 Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-17 01:28:32: 2026-02-17 01:28:32,432 [INFO]   \u2192 Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-17 01:28:32: 2026-02-17 01:28:32,432 [INFO]   \u2192 Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-17 01:28:32: 2026-02-17 01:28:32,440 [INFO] Dashboard updated (12 pending, 0 done).
+2026-02-17 01:28:32: 2026-02-17 01:28:32,440 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-17 01:28:32: 2026-02-17 01:28:32,440 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-17 01:33:32: 2026-02-17 01:33:32,657 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:33:32: 2026-02-17 01:33:32,658 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:33:32: 2026-02-17 01:33:32,665 [INFO]   PID 8276 \u2192 log: filesystem_watcher.log
+2026-02-17 01:33:32: 2026-02-17 01:33:32,666 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:33:32: 2026-02-17 01:33:32,668 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:33:32: 2026-02-17 01:33:32,672 [INFO]   PID 2220 \u2192 log: gmail_watcher.log
+2026-02-17 01:38:32: 2026-02-17 01:38:32,854 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:38:32: 2026-02-17 01:38:32,854 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:38:32: 2026-02-17 01:38:32,857 [INFO]   PID 9384 \u2192 log: filesystem_watcher.log
+2026-02-17 01:38:32: 2026-02-17 01:38:32,858 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:38:32: 2026-02-17 01:38:32,858 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:38:32: 2026-02-17 01:38:32,861 [INFO]   PID 8032 \u2192 log: gmail_watcher.log
+2026-02-17 01:43:33: 2026-02-17 01:43:33,050 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:43:33: 2026-02-17 01:43:33,050 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:43:33: 2026-02-17 01:43:33,056 [INFO]   PID 5100 \u2192 log: filesystem_watcher.log
+2026-02-17 01:43:33: 2026-02-17 01:43:33,056 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:43:33: 2026-02-17 01:43:33,057 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:43:33: 2026-02-17 01:43:33,063 [INFO]   PID 1012 \u2192 log: gmail_watcher.log
+2026-02-17 01:48:33: 2026-02-17 01:48:33,256 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:48:33: 2026-02-17 01:48:33,256 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:48:33: 2026-02-17 01:48:33,265 [INFO]   PID 9960 \u2192 log: filesystem_watcher.log
+2026-02-17 01:48:33: 2026-02-17 01:48:33,266 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:48:33: 2026-02-17 01:48:33,267 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:48:33: 2026-02-17 01:48:33,273 [INFO]   PID 3272 \u2192 log: gmail_watcher.log

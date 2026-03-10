@@ -1,0 +1,465 @@
+2026-02-17 01:27:26,578 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:27:26,594 [INFO]   PID 796 → log: filesystem_watcher.log
+2026-02-17 01:27:26,595 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:27:26,610 [INFO]   PID 11156 → log: gmail_watcher.log
+2026-02-17 01:27:26,610 [INFO] Watcher disabled, skipping: whatsapp_watcher
+2026-02-17 01:27:26,611 [INFO] Watcher disabled, skipping: linkedin_poster
+2026-02-17 01:27:26,612 [INFO] Scheduled tasks registered:
+2026-02-17 01:27:26,615 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-17 01:27:26,616 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-17 01:27:26,617 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-17 01:27:26,618 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-17 01:27:26,618 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-17 01:27:26,623 [INFO] Dashboard updated (10 pending, 0 done).
+2026-02-17 01:27:26,623 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-17 01:27:26,624 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-17 01:28:32,402 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:28:32,415 [INFO]   PID 10648 → log: filesystem_watcher.log
+2026-02-17 01:28:32,416 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:28:32,429 [INFO]   PID 11296 → log: gmail_watcher.log
+2026-02-17 01:28:32,429 [INFO] Watcher disabled, skipping: whatsapp_watcher
+2026-02-17 01:28:32,430 [INFO] Watcher disabled, skipping: linkedin_poster
+2026-02-17 01:28:32,431 [INFO] Scheduled tasks registered:
+2026-02-17 01:28:32,431 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-17 01:28:32,432 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-17 01:28:32,432 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-17 01:28:32,432 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-17 01:28:32,432 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-17 01:28:32,440 [INFO] Dashboard updated (12 pending, 0 done).
+2026-02-17 01:28:32,440 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-17 01:28:32,440 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-17 01:33:32,657 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:33:32,658 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:33:32,665 [INFO]   PID 8276 → log: filesystem_watcher.log
+2026-02-17 01:33:32,666 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:33:32,668 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:33:32,672 [INFO]   PID 2220 → log: gmail_watcher.log
+2026-02-17 01:38:32,854 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:38:32,854 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:38:32,857 [INFO]   PID 9384 → log: filesystem_watcher.log
+2026-02-17 01:38:32,858 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:38:32,858 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:38:32,861 [INFO]   PID 8032 → log: gmail_watcher.log
+2026-02-17 01:43:33,050 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:43:33,050 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:43:33,056 [INFO]   PID 5100 → log: filesystem_watcher.log
+2026-02-17 01:43:33,056 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:43:33,057 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:43:33,063 [INFO]   PID 1012 → log: gmail_watcher.log
+2026-02-17 01:48:33,256 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:48:33,256 [INFO] Starting watcher: filesystem_watcher
+2026-02-17 01:48:33,265 [INFO]   PID 9960 → log: filesystem_watcher.log
+2026-02-17 01:48:33,266 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-17 01:48:33,267 [INFO] Starting watcher: gmail_watcher
+2026-02-17 01:48:33,273 [INFO]   PID 3272 → log: gmail_watcher.log
+2026-02-24 23:59:50,430 [INFO] Starting watcher: filesystem_watcher
+2026-02-24 23:59:50,442 [INFO]   PID 14036 → log: filesystem_watcher.log
+2026-02-24 23:59:50,443 [INFO] Starting watcher: gmail_watcher
+2026-02-24 23:59:50,454 [INFO]   PID 15684 → log: gmail_watcher.log
+2026-02-24 23:59:50,454 [INFO] Watcher disabled, skipping: whatsapp_watcher
+2026-02-24 23:59:50,454 [INFO] Watcher disabled, skipping: linkedin_poster
+2026-02-24 23:59:50,456 [INFO] Scheduled tasks registered:
+2026-02-24 23:59:50,456 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-24 23:59:50,457 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-24 23:59:51,007 [INFO] Dashboard updated (12 pending, 0 done).
+2026-02-24 23:59:51,008 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-24 23:59:51,012 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 00:04:50,781 [WARNING] Watcher 'gmail_watcher' is down (exit=1). Restarting...
+2026-02-25 00:04:50,782 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:04:50,793 [INFO]   PID 11580 → log: gmail_watcher.log
+2026-02-25 00:09:51,069 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:09:51,070 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:09:51,078 [INFO]   PID 9420 → log: filesystem_watcher.log
+2026-02-25 00:09:51,078 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:09:51,081 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:09:51,087 [INFO]   PID 13520 → log: gmail_watcher.log
+2026-02-25 00:14:51,318 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:14:51,319 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:14:51,323 [INFO]   PID 8864 → log: filesystem_watcher.log
+2026-02-25 00:14:51,324 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:14:51,324 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:14:51,328 [INFO]   PID 14192 → log: gmail_watcher.log
+2026-02-25 00:19:51,523 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:19:51,524 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:19:51,532 [INFO]   PID 3656 → log: filesystem_watcher.log
+2026-02-25 00:19:51,533 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:19:51,536 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:19:51,545 [INFO]   PID 8348 → log: gmail_watcher.log
+2026-02-25 00:24:51,753 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:24:51,753 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:24:51,763 [INFO]   PID 4216 → log: filesystem_watcher.log
+2026-02-25 00:24:51,764 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:24:51,765 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:24:51,773 [INFO]   PID 6784 → log: gmail_watcher.log
+2026-02-25 00:29:51,102 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 00:29:52,104 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:29:52,105 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:29:52,112 [INFO]   PID 3348 → log: filesystem_watcher.log
+2026-02-25 00:29:52,113 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:29:52,114 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:29:52,122 [INFO]   PID 13096 → log: gmail_watcher.log
+2026-02-25 00:37:40,617 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:37:40,625 [INFO]   PID 6068 → log: filesystem_watcher.log
+2026-02-25 00:37:40,625 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:37:40,636 [INFO]   PID 4988 → log: gmail_watcher.log
+2026-02-25 00:37:40,637 [INFO] Starting watcher: meta_poster
+2026-02-25 00:37:40,647 [INFO]   PID 2060 → log: meta_poster.log
+2026-02-25 00:37:40,648 [INFO] Starting watcher: twitter_poster
+2026-02-25 00:37:40,659 [INFO]   PID 16032 → log: twitter_poster.log
+2026-02-25 00:37:40,660 [INFO] Watcher disabled, skipping: whatsapp_watcher
+2026-02-25 00:37:40,660 [INFO] Watcher disabled, skipping: linkedin_poster
+2026-02-25 00:37:40,661 [INFO] Scheduled tasks registered:
+2026-02-25 00:37:40,661 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-25 00:37:40,663 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-25 00:37:40,663 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-25 00:37:40,664 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-25 00:37:40,664 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-25 00:37:40,664 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-25 00:37:40,664 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-25 00:37:40,675 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 00:37:40,675 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-25 00:37:40,676 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 00:42:41,140 [WARNING] Watcher 'meta_poster' is down (exit=1). Restarting...
+2026-02-25 00:42:41,140 [INFO] Starting watcher: meta_poster
+2026-02-25 00:42:41,144 [INFO]   PID 10284 → log: meta_poster.log
+2026-02-25 00:43:24,851 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:43:24,868 [INFO]   PID 9976 → log: filesystem_watcher.log
+2026-02-25 00:43:24,869 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:43:24,882 [INFO]   PID 11964 → log: gmail_watcher.log
+2026-02-25 00:43:24,885 [INFO] Starting watcher: meta_poster
+2026-02-25 00:43:24,898 [INFO]   PID 7288 → log: meta_poster.log
+2026-02-25 00:43:24,899 [INFO] Starting watcher: twitter_poster
+2026-02-25 00:43:24,914 [INFO]   PID 12776 → log: twitter_poster.log
+2026-02-25 00:43:24,915 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 00:43:24,928 [INFO]   PID 3896 → log: whatsapp_watcher.log
+2026-02-25 00:43:24,929 [INFO] Starting watcher: linkedin_poster
+2026-02-25 00:43:24,944 [INFO]   PID 13820 → log: linkedin_poster.log
+2026-02-25 00:43:24,945 [INFO] Scheduled tasks registered:
+2026-02-25 00:43:24,946 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-25 00:43:24,947 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-25 00:43:24,947 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-25 00:43:24,948 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-25 00:43:24,948 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-25 00:43:24,949 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-25 00:43:24,949 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-25 00:43:24,973 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 00:43:24,973 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-25 00:43:24,973 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 00:48:25,095 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:48:25,096 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:48:25,104 [INFO]   PID 18684 → log: filesystem_watcher.log
+2026-02-25 00:48:25,105 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:48:25,106 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:48:25,113 [INFO]   PID 7120 → log: gmail_watcher.log
+2026-02-25 00:48:25,113 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:48:25,113 [INFO] Starting watcher: meta_poster
+2026-02-25 00:48:25,122 [INFO]   PID 19320 → log: meta_poster.log
+2026-02-25 00:48:25,123 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:48:25,123 [INFO] Starting watcher: twitter_poster
+2026-02-25 00:48:25,134 [INFO]   PID 17292 → log: twitter_poster.log
+2026-02-25 00:48:25,135 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 00:48:25,136 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 00:48:25,146 [INFO]   PID 17592 → log: whatsapp_watcher.log
+2026-02-25 00:48:25,146 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:48:25,150 [INFO] Starting watcher: linkedin_poster
+2026-02-25 00:48:25,159 [INFO]   PID 19212 → log: linkedin_poster.log
+2026-02-25 00:53:26,113 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,114 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:53:26,122 [INFO]   PID 17840 → log: filesystem_watcher.log
+2026-02-25 00:53:26,122 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,123 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:53:26,131 [INFO]   PID 15576 → log: gmail_watcher.log
+2026-02-25 00:53:26,133 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,134 [INFO] Starting watcher: meta_poster
+2026-02-25 00:53:26,142 [INFO]   PID 18556 → log: meta_poster.log
+2026-02-25 00:53:26,144 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,145 [INFO] Starting watcher: twitter_poster
+2026-02-25 00:53:26,154 [INFO]   PID 19088 → log: twitter_poster.log
+2026-02-25 00:53:26,155 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,158 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 00:53:26,169 [INFO]   PID 5772 → log: whatsapp_watcher.log
+2026-02-25 00:53:26,170 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:53:26,171 [INFO] Starting watcher: linkedin_poster
+2026-02-25 00:53:26,182 [INFO]   PID 11140 → log: linkedin_poster.log
+2026-02-25 00:58:27,079 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,081 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 00:58:27,085 [INFO]   PID 15884 → log: filesystem_watcher.log
+2026-02-25 00:58:27,086 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,087 [INFO] Starting watcher: gmail_watcher
+2026-02-25 00:58:27,092 [INFO]   PID 16652 → log: gmail_watcher.log
+2026-02-25 00:58:27,093 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,094 [INFO] Starting watcher: meta_poster
+2026-02-25 00:58:27,103 [INFO]   PID 7696 → log: meta_poster.log
+2026-02-25 00:58:27,105 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,106 [INFO] Starting watcher: twitter_poster
+2026-02-25 00:58:27,113 [INFO]   PID 7336 → log: twitter_poster.log
+2026-02-25 00:58:27,114 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,115 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 00:58:27,123 [INFO]   PID 17824 → log: whatsapp_watcher.log
+2026-02-25 00:58:27,124 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 00:58:27,125 [INFO] Starting watcher: linkedin_poster
+2026-02-25 00:58:27,131 [INFO]   PID 16264 → log: linkedin_poster.log
+2026-02-25 01:03:28,074 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,074 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 01:03:28,077 [INFO]   PID 10824 → log: filesystem_watcher.log
+2026-02-25 01:03:28,078 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,078 [INFO] Starting watcher: gmail_watcher
+2026-02-25 01:03:28,081 [INFO]   PID 19180 → log: gmail_watcher.log
+2026-02-25 01:03:28,081 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,082 [INFO] Starting watcher: meta_poster
+2026-02-25 01:03:28,085 [INFO]   PID 16564 → log: meta_poster.log
+2026-02-25 01:03:28,086 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,086 [INFO] Starting watcher: twitter_poster
+2026-02-25 01:03:28,090 [INFO]   PID 19204 → log: twitter_poster.log
+2026-02-25 01:03:28,090 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,090 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 01:03:28,094 [INFO]   PID 8456 → log: whatsapp_watcher.log
+2026-02-25 01:03:28,094 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 01:03:28,094 [INFO] Starting watcher: linkedin_poster
+2026-02-25 01:03:28,098 [INFO]   PID 13100 → log: linkedin_poster.log
+2026-02-25 11:08:13,391 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:08:13,407 [INFO]   PID 3452 → log: filesystem_watcher.log
+2026-02-25 11:08:13,407 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:08:13,423 [INFO]   PID 952 → log: gmail_watcher.log
+2026-02-25 11:08:13,423 [INFO] Starting watcher: meta_poster
+2026-02-25 11:08:13,438 [INFO]   PID 992 → log: meta_poster.log
+2026-02-25 11:08:13,438 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:08:13,438 [INFO]   PID 10936 → log: twitter_poster.log
+2026-02-25 11:08:13,438 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:08:13,454 [INFO]   PID 10008 → log: whatsapp_watcher.log
+2026-02-25 11:08:13,454 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:08:13,469 [INFO]   PID 8360 → log: linkedin_poster.log
+2026-02-25 11:08:13,469 [INFO] Scheduled tasks registered:
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-25 11:08:13,469 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-25 11:08:14,126 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 11:08:14,126 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-25 11:08:14,126 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 11:13:13,872 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:13:13,872 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:13:13,889 [INFO]   PID 15096 → log: filesystem_watcher.log
+2026-02-25 11:13:13,889 [WARNING] Watcher 'gmail_watcher' is down (exit=1). Restarting...
+2026-02-25 11:13:13,890 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:13:13,898 [INFO]   PID 13588 → log: gmail_watcher.log
+2026-02-25 11:13:13,899 [WARNING] Watcher 'meta_poster' is down (exit=1). Restarting...
+2026-02-25 11:13:13,899 [INFO] Starting watcher: meta_poster
+2026-02-25 11:13:13,906 [INFO]   PID 1144 → log: meta_poster.log
+2026-02-25 11:13:13,907 [WARNING] Watcher 'twitter_poster' is down (exit=1). Restarting...
+2026-02-25 11:13:13,907 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:13:13,915 [INFO]   PID 12352 → log: twitter_poster.log
+2026-02-25 11:13:13,916 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 11:13:13,916 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:13:13,926 [INFO]   PID 6332 → log: whatsapp_watcher.log
+2026-02-25 11:13:13,926 [WARNING] Watcher 'linkedin_poster' is down (exit=1). Restarting...
+2026-02-25 11:13:13,927 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:13:13,936 [INFO]   PID 12088 → log: linkedin_poster.log
+2026-02-25 11:18:14,840 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:18:14,840 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:18:14,847 [INFO]   PID 1988 → log: filesystem_watcher.log
+2026-02-25 11:18:14,847 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:18:14,848 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:18:14,853 [INFO]   PID 3908 → log: gmail_watcher.log
+2026-02-25 11:18:14,853 [WARNING] Watcher 'meta_poster' is down (exit=1). Restarting...
+2026-02-25 11:18:14,854 [INFO] Starting watcher: meta_poster
+2026-02-25 11:18:14,857 [INFO]   PID 6040 → log: meta_poster.log
+2026-02-25 11:18:14,857 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:18:14,858 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:18:14,861 [INFO]   PID 3688 → log: twitter_poster.log
+2026-02-25 11:18:14,861 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 11:18:14,862 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:18:14,865 [INFO]   PID 11148 → log: whatsapp_watcher.log
+2026-02-25 11:18:14,866 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:18:14,866 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:18:14,870 [INFO]   PID 11580 → log: linkedin_poster.log
+2026-02-25 11:23:15,038 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:23:15,038 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:23:15,045 [INFO]   PID 14672 → log: filesystem_watcher.log
+2026-02-25 11:23:15,046 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:23:15,047 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:23:15,054 [INFO]   PID 3348 → log: gmail_watcher.log
+2026-02-25 11:23:15,055 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:23:15,056 [INFO] Starting watcher: meta_poster
+2026-02-25 11:23:15,064 [INFO]   PID 3672 → log: meta_poster.log
+2026-02-25 11:23:15,065 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:23:15,066 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:23:15,075 [INFO]   PID 2364 → log: twitter_poster.log
+2026-02-25 11:23:15,076 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 11:23:15,077 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:23:15,083 [INFO]   PID 14496 → log: whatsapp_watcher.log
+2026-02-25 11:23:15,084 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:23:15,084 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:23:15,089 [INFO]   PID 12068 → log: linkedin_poster.log
+2026-02-25 11:28:15,391 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:28:15,391 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:28:15,395 [INFO]   PID 15512 → log: gmail_watcher.log
+2026-02-25 11:28:15,396 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 11:28:15,396 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:28:15,400 [INFO]   PID 12744 → log: whatsapp_watcher.log
+2026-02-25 11:33:15,748 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,748 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:33:15,755 [INFO]   PID 13384 → log: filesystem_watcher.log
+2026-02-25 11:33:15,756 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,757 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:33:15,764 [INFO]   PID 1752 → log: gmail_watcher.log
+2026-02-25 11:33:15,765 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,766 [INFO] Starting watcher: meta_poster
+2026-02-25 11:33:15,775 [INFO]   PID 12324 → log: meta_poster.log
+2026-02-25 11:33:15,776 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,778 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:33:15,783 [INFO]   PID 9416 → log: twitter_poster.log
+2026-02-25 11:33:15,783 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,784 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:33:15,789 [INFO]   PID 17884 → log: whatsapp_watcher.log
+2026-02-25 11:33:15,789 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 11:33:15,790 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:33:15,794 [INFO]   PID 17820 → log: linkedin_poster.log
+2026-02-25 11:35:59,158 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 11:35:59,170 [INFO]   PID 9920 → log: filesystem_watcher.log
+2026-02-25 11:35:59,171 [INFO] Starting watcher: gmail_watcher
+2026-02-25 11:35:59,181 [INFO]   PID 12764 → log: gmail_watcher.log
+2026-02-25 11:35:59,182 [INFO] Starting watcher: meta_poster
+2026-02-25 11:35:59,189 [INFO]   PID 17956 → log: meta_poster.log
+2026-02-25 11:35:59,190 [INFO] Starting watcher: twitter_poster
+2026-02-25 11:35:59,198 [INFO]   PID 8448 → log: twitter_poster.log
+2026-02-25 11:35:59,199 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 11:35:59,209 [INFO]   PID 3672 → log: whatsapp_watcher.log
+2026-02-25 11:35:59,209 [INFO] Starting watcher: linkedin_poster
+2026-02-25 11:35:59,219 [INFO]   PID 1692 → log: linkedin_poster.log
+2026-02-25 11:35:59,219 [INFO] Scheduled tasks registered:
+2026-02-25 11:35:59,219 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-25 11:35:59,220 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-25 11:35:59,220 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-25 11:35:59,220 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-25 11:35:59,220 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-25 11:35:59,221 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-25 11:35:59,221 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-25 11:35:59,904 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 11:35:59,905 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-25 11:35:59,905 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 14:20:57,743 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:20:57,758 [INFO]   PID 11848 → log: filesystem_watcher.log
+2026-02-25 14:20:57,758 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:20:57,758 [INFO]   PID 11872 → log: gmail_watcher.log
+2026-02-25 14:20:57,758 [INFO] Starting watcher: meta_poster
+2026-02-25 14:20:57,774 [INFO]   PID 11880 → log: meta_poster.log
+2026-02-25 14:20:57,774 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:20:57,789 [INFO]   PID 11900 → log: twitter_poster.log
+2026-02-25 14:20:57,789 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:20:57,805 [INFO]   PID 11916 → log: whatsapp_watcher.log
+2026-02-25 14:20:57,805 [INFO] Starting watcher: linkedin_poster
+2026-02-25 14:20:57,805 [INFO]   PID 11932 → log: linkedin_poster.log
+2026-02-25 14:20:57,805 [INFO] Scheduled tasks registered:
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=1, unit=days, do=morning_briefing, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=30, unit=minutes, do=update_dashboard, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=1, unit=days, do=vault_cleanup, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=1, unit=days, do=scheduled_linkedin_draft, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=1, unit=days, do=daily_needs_action_audit, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=1, unit=weeks, do=weekly_ceo_audit, args=(), kwargs={})
+2026-02-25 14:20:57,805 [INFO]   → Job(interval=5, unit=minutes, do=health_check_watchers, args=(), kwargs={})
+2026-02-25 14:20:58,482 [INFO] Dashboard updated (22 pending, 0 done).
+2026-02-25 14:20:58,482 [INFO] Orchestrator running. Waiting for scheduled tasks...
+2026-02-25 14:20:58,482 [INFO] Next briefing at 08:00 PKT. Dashboard refreshes every 30m.
+2026-02-25 14:25:58,501 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:25:58,502 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:25:58,507 [INFO]   PID 7364 → log: filesystem_watcher.log
+2026-02-25 14:25:58,508 [WARNING] Watcher 'gmail_watcher' is down (exit=1). Restarting...
+2026-02-25 14:25:58,509 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:25:58,513 [INFO]   PID 4460 → log: gmail_watcher.log
+2026-02-25 14:25:58,513 [WARNING] Watcher 'meta_poster' is down (exit=1). Restarting...
+2026-02-25 14:25:58,515 [INFO] Starting watcher: meta_poster
+2026-02-25 14:25:58,519 [INFO]   PID 16800 → log: meta_poster.log
+2026-02-25 14:25:58,519 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:25:58,519 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:25:58,523 [INFO]   PID 16508 → log: twitter_poster.log
+2026-02-25 14:25:58,523 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 14:25:58,524 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:25:58,528 [INFO]   PID 12356 → log: whatsapp_watcher.log
+2026-02-25 14:25:58,528 [WARNING] Watcher 'linkedin_poster' is down (exit=1). Restarting...
+2026-02-25 14:25:58,529 [INFO] Starting watcher: linkedin_poster
+2026-02-25 14:25:58,532 [INFO]   PID 15168 → log: linkedin_poster.log
+2026-02-25 14:30:59,112 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,112 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:30:59,122 [INFO]   PID 11648 → log: filesystem_watcher.log
+2026-02-25 14:30:59,123 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,123 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:30:59,133 [INFO]   PID 17484 → log: gmail_watcher.log
+2026-02-25 14:30:59,133 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,133 [INFO] Starting watcher: meta_poster
+2026-02-25 14:30:59,144 [INFO]   PID 2276 → log: meta_poster.log
+2026-02-25 14:30:59,144 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,145 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:30:59,151 [INFO]   PID 3708 → log: twitter_poster.log
+2026-02-25 14:30:59,152 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,153 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:30:59,157 [INFO]   PID 6668 → log: whatsapp_watcher.log
+2026-02-25 14:30:59,157 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:30:59,159 [INFO] Starting watcher: linkedin_poster
+2026-02-25 14:30:59,162 [INFO]   PID 7772 → log: linkedin_poster.log
+2026-02-25 14:35:59,769 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,769 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:35:59,782 [INFO]   PID 12800 → log: filesystem_watcher.log
+2026-02-25 14:35:59,786 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,786 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:35:59,803 [INFO]   PID 12712 → log: gmail_watcher.log
+2026-02-25 14:35:59,803 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,804 [INFO] Starting watcher: meta_poster
+2026-02-25 14:35:59,821 [INFO]   PID 15680 → log: meta_poster.log
+2026-02-25 14:35:59,821 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,822 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:35:59,833 [INFO]   PID 17432 → log: twitter_poster.log
+2026-02-25 14:35:59,833 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,833 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:35:59,843 [INFO]   PID 4500 → log: whatsapp_watcher.log
+2026-02-25 14:35:59,844 [WARNING] Watcher 'linkedin_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:35:59,844 [INFO] Starting watcher: linkedin_poster
+2026-02-25 14:35:59,855 [INFO]   PID 13960 → log: linkedin_poster.log
+2026-02-25 14:41:00,521 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:41:00,522 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:41:00,530 [INFO]   PID 9224 → log: filesystem_watcher.log
+2026-02-25 14:41:00,531 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:41:00,531 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:41:00,539 [INFO]   PID 18344 → log: gmail_watcher.log
+2026-02-25 14:41:00,541 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:41:00,543 [INFO] Starting watcher: meta_poster
+2026-02-25 14:41:00,551 [INFO]   PID 7584 → log: meta_poster.log
+2026-02-25 14:41:00,553 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:41:00,554 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:41:00,561 [INFO]   PID 4260 → log: twitter_poster.log
+2026-02-25 14:41:00,562 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 14:41:00,563 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:41:00,569 [INFO]   PID 11824 → log: whatsapp_watcher.log
+2026-02-25 14:46:01,485 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:46:01,485 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:46:01,488 [INFO]   PID 15560 → log: gmail_watcher.log
+2026-02-25 14:46:01,489 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:46:01,489 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:46:01,492 [INFO]   PID 7796 → log: twitter_poster.log
+2026-02-25 14:46:01,492 [WARNING] Watcher 'whatsapp_watcher' is down (exit=1). Restarting...
+2026-02-25 14:46:01,492 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:46:01,497 [INFO]   PID 15172 → log: whatsapp_watcher.log
+2026-02-25 14:50:58,150 [INFO] Dashboard updated (23 pending, 0 done).
+2026-02-25 14:51:02,153 [WARNING] Watcher 'filesystem_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:51:02,153 [INFO] Starting watcher: filesystem_watcher
+2026-02-25 14:51:02,161 [INFO]   PID 4884 → log: filesystem_watcher.log
+2026-02-25 14:51:02,161 [WARNING] Watcher 'gmail_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:51:02,162 [INFO] Starting watcher: gmail_watcher
+2026-02-25 14:51:02,168 [INFO]   PID 7508 → log: gmail_watcher.log
+2026-02-25 14:51:02,168 [WARNING] Watcher 'meta_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:51:02,168 [INFO] Starting watcher: meta_poster
+2026-02-25 14:51:02,171 [INFO]   PID 16320 → log: meta_poster.log
+2026-02-25 14:51:02,172 [WARNING] Watcher 'twitter_poster' is down (exit=3221225786). Restarting...
+2026-02-25 14:51:02,172 [INFO] Starting watcher: twitter_poster
+2026-02-25 14:51:02,176 [INFO]   PID 8460 → log: twitter_poster.log
+2026-02-25 14:51:02,176 [WARNING] Watcher 'whatsapp_watcher' is down (exit=3221225786). Restarting...
+2026-02-25 14:51:02,176 [INFO] Starting watcher: whatsapp_watcher
+2026-02-25 14:51:02,180 [INFO]   PID 10496 → log: whatsapp_watcher.log
