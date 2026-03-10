@@ -1,0 +1,25 @@
+# Secrets
+.env
+watchers/credentials.json
+watchers/gmail_token.json
+watchers/*.json
+
+# Dependencies
+node_modules/
+mcp/node_modules/
+
+# Sessions
+.whatsapp_session/
+.linkedin_session/
+
+# Logs
+logs/*.log
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# OS
+.DS_Store
+Thumbs.db
