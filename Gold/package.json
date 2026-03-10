@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "googleapis": "^171.4.0",
+    "odoo-xmlrpc": "^1.0.8",
+    "twitter-api-v2": "^1.29.0"
+  },
+  "devDependencies": {
+    "dotenv": "^17.3.1"
+  }
+}

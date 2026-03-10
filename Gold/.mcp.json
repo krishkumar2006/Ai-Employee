@@ -1,0 +1,57 @@
+{
+  "mcpServers": {
+    "email": {
+      "command": "node",
+      "args": ["D:/Heck ---0/AI Empolyee/mcp/email_mcp.js"],
+      "env": {
+        "GMAIL_ADDRESS": "${GMAIL_ADDRESS}",
+        "GMAIL_APP_PASSWORD": "${GMAIL_APP_PASSWORD}"
+      }
+    },
+
+    "browser": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@playwright/mcp@latest",
+        "--browser", "chromium",
+        "--headless"
+      ],
+      "env": {}
+    },
+
+    "odoo": {
+      "command": "python",
+      "args": ["D:/Heck ---0/AI Empolyee/mcp/odoo_mcp.py"],
+      "env": {
+        "ODOO_URL": "${ODOO_URL}",
+        "ODOO_DB": "${ODOO_DB}",
+        "ODOO_USER": "${ODOO_USER}",
+        "ODOO_PASSWORD": "${ODOO_PASSWORD}"
+      }
+    },
+
+    "facebook-instagram": {
+      "command": "python",
+      "args": ["D:/Heck ---0/AI Empolyee/mcp/meta_mcp.py"],
+      "env": {
+        "META_PAGE_ACCESS_TOKEN": "${META_PAGE_ACCESS_TOKEN}",
+        "META_PAGE_ID": "${META_PAGE_ID}",
+        "META_IG_USER_ID": "${META_IG_USER_ID}",
+        "META_GRAPH_VERSION": "${META_GRAPH_VERSION}"
+      }
+    },
+
+    "twitter": {
+      "command": "python",
+      "args": ["D:/Heck ---0/AI Empolyee/mcp/twitter_mcp.py"],
+      "env": {
+        "X_API_KEY": "${X_API_KEY}",
+        "X_API_SECRET": "${X_API_SECRET}",
+        "X_ACCESS_TOKEN": "${X_ACCESS_TOKEN}",
+        "X_ACCESS_TOKEN_SECRET": "${X_ACCESS_TOKEN_SECRET}",
+        "X_BEARER_TOKEN": "${X_BEARER_TOKEN}"
+      }
+    }
+  }
+}
